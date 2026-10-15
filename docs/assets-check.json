@@ -1,0 +1,1175 @@
+{
+  "checked_at": "2026-10-15T17:12:36.815Z",
+  "results": [
+    {
+      "id": "killer:animatronic",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:artist",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:blight",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:cannibal",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:cenobite",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:clown",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:dark-lord",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:deathslinger",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:demogorgon",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:doctor",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:dredge",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:executioner",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:first",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:ghost-face",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:ghoul",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:good-guy",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:hag",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:hillbilly",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:houndmaster",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:huntress",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:judgment",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:knight",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:krasue",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:legion",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:lich",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:mastermind",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:nemesis",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:nightmare",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:nurse",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:oni",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:onryo",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:pig",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:plague",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:shape",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:singularity",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:skull-merchant",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:slasher",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:spirit",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:trapper",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:trickster",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:twins",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:unknown",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:wraith",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "killer:xenomorph",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:nurses",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:agitation",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:alien-instinct",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:all-shaking-thunder",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:awakened-awareness",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:bamboozle",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:barbecue-chilli",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:batteries-included",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:beast-of-prey",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:bitter-murmur",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:blood-echo",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:blood-warden",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:bloodhound",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:brutal",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:call-of-brine",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:celestial-witness",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:corrupt",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:coulrophobia",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:coup-de-grace",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:cruel-limits",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:cull-the-weak",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dark-arrogance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dark-devotion",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:darkness-revealed",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dead-mans-switch",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:deadlock",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:deathbound",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:deerstalker",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:discordance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dissolution",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:distressing",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dominance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dragons-grip",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:dying-light",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:enduring",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:eruption",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:fire-up",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:forced-hesitation",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:forced-penance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:forever-entwined",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:franklins-demise",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:friends-til-the-end",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:furtive-chase",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:game-afoot",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:gearhead",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:genetic-limits",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:grim",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:haywire",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:help-wanted",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-blood-favour",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-crowd-control",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-devour-hope",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-face-the-darkness",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-fortunes-fool",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:haunted",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-hive-mind",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-huntress-lullaby",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-no-one-escapes-death",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-nothing-but-misery",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-overture-of-doom",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:pentimento",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-plaything",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-retribution",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-ruin",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-scared-to-death",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-the-third-seal",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-thrill-of-the-hunt",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-two-can-play",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-under-your-thumb",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-undying",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hex-wretched-fate",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hoarder",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hubris",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:human-greed",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:hysteria",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:im-all-ears",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:infectious",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:insidious",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:iron-grasp",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:iron-maiden",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:keep-them-waiting",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:knock-out",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:languid-touch",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:lay-waste",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:lethal-pursuer",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:leverage",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:lightborn",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:machine-learning",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:mad-grit",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:make-your-choice",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:merciless-storm",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:mindbreaker",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:monitor-abuse",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:nemesis",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:no-holds-barred",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:no-quarter",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:no-way-out",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:none-are-free",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:nowhere-to-hide",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:oppression",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:overcharge",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:overwhelming-presence",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:phantom-fear",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:play-with-your-food",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:pop",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:predator",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:rampage",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:rancor",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:rapid-brutality",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:ravenous",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:remember-me",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:save-the-best-for-last",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-floods-of-rage",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-gift-of-pain",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-hangmans-trick",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-jagged-compass",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-monstrous-shrine",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:pain-resonance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:scourge-hook-weeping-wounds",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:secret-project",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:see-how-they-run",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:septic-touch",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:shadowborn",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:shattered-hope",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:silent-shadow",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:sloppy-butcher",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:spies-from-the-shadows",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:spirit-fury",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:starstruck",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:stridor",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:superior-anatomy",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:surge",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:surveillance",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:thwack",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:terminus",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:territorial-imperative",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:thanatophobia",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:thrilling-tremors",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:tinkerer",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:trail-of-torment",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:turn-back-the-clock",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:ultimate-weapon",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:unbound",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:undone",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:unforeseen",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:unnerving",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:unrelenting",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:wandering-eye",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:weave-attunement",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:whispers",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    },
+    {
+      "id": "perk:zanshin-tactics",
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
+    }
+  ]
+}

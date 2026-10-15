@@ -1,0 +1,146 @@
+# Nome canônico|categorias|força editorial|resumo factual em português (sem valores dependentes de nível)
+A Nurse's Calling|information|6.5|Revela auras de sobreviventes que estão curando nas proximidades.
+Agitation|mobility,pressure|6.5|Aumenta a velocidade de transporte e o raio de terror enquanto carrega alguém.
+Alien Instinct|information,stealth|6|Após um gancho, revela o ferido mais distante e aplica Alheio.
+All-Shaking Thunder|chase|6|Após cair de uma altura, aumenta temporariamente o alcance da investida.
+Awakened Awareness|information|6|Revela sobreviventes próximos enquanto você carrega outro sobrevivente.
+Bamboozle|chase|7|Acelera o salto de janelas e bloqueia a última janela atravessada.
+Barbecue & Chilli|information|7.5|Após um gancho, revela brevemente auras de sobreviventes distantes.
+Batteries Included|mobility,chase|6|Concede aceleração perto de geradores concluídos, com breve duração residual.
+Beast of Prey|stealth|4|Ao ativar Sede de Sangue, concede Indetectável temporariamente.
+Bitter Murmur|information,endgame|6|Geradores concluídos revelam sobreviventes próximos; o último revela todos.
+Blood Echo|pressure,chase|6.5|Enganchar aplica Exaustão e Hemorragia aos sobreviventes feridos.
+Blood Warden|endgame,block|6|Após abrir um portão, um gancho pode bloquear as saídas uma vez na partida. Revela auras na área dos portões.
+Bloodhound|information|4|Destaca rastros de sangue e prolonga sua permanência.
+Brutal Strength|chase|6.5|Acelera a quebra de pallets e paredes e o dano a geradores.
+Call of Brine|regression,information|6|Danificar um gerador acelera sua regressão e permite alertas de testes bons feitos nele durante a duração.
+Celestial Witness|information|6|Periodicamente revela a Obsessão distante; se ela estiver perto, a Obsessão passa ao sobrevivente mais distante.
+Corrupt Intervention|block|8.5|Bloqueia os geradores mais distantes no início, até o tempo terminar ou ocorrer a primeira queda.
+Coulrophobia|pressure|5|Dificulta a cura no raio de terror e acelera o ponteiro dos testes de cura.
+Coup de Grâce|chase|7|Geradores concluídos concedem cargas que ampliam o alcance de investidas.
+Cruel Limits|chase,block|5.5|A conclusão de um gerador bloqueia janelas temporariamente.
+Cull the Weak|pressure,regression|5|Ganchos fora da Obsessão acumulam lentidão de ações para os demais; a Obsessão recebe bônus de cura e resgate.
+Dark Arrogance|chase|6|Acelera saltos e recuperação de ataques básicos errados, mas prolonga cegueiras e atordoamentos por pallets.
+Dark Devotion|stealth|5.5|Quando a Obsessão se fere, transfere o raio de terror para ela e concede Indetectável temporariamente.
+Darkness Revealed|information|6.5|Revistar um armário revela sobreviventes próximos de armários pelo mapa; tem intervalo entre ativações.
+Dead Man's Switch|block|7|Após um gancho, bloqueia o primeiro gerador cujo reparo é interrompido pela duração exigida.
+Deathbound|information,stealth|5.5|Concluir uma cura em outra pessoa faz o curador gritar e sofrer Alheio quando se afasta dela.
+Deerstalker|information|5|Retribui leituras de sua aura; periodicamente revela você ao sobrevivente com menor tempo acumulado de perseguição.
+Discordance|information|8|Destaca geradores reparados por duas ou mais pessoas dentro do alcance e avisa sua localização.
+Dissolution|chase|6.5|Após ferir com ataque básico, pode quebrar um pallet que esse sobrevivente salte rapidamente dentro do raio de terror.
+Distressing|pressure|5.5|Amplia o raio de terror e reduz a velocidade de reparo dentro dele.
+Dominance|block,information|5.5|A primeira interação com cada totem o bloqueia, faz o sobrevivente gritar e revela sua aura.
+Dragon's Grip|chase,information|6|Após danificar um gerador, pune a primeira pessoa que interage com ele com grito e Exposto.
+Enduring|chase|7|Reduz atordoamentos causados por pallets, exceto enquanto carrega alguém.
+Eruption|regression,information|7|Marca geradores danificados; uma queda provoca regressão nesses geradores e fornece informação sobre quem os reparava.
+Fire Up|chase|5.5|Geradores concluídos acumulam velocidade em ações de pegar, soltar, quebrar, danificar e saltar.
+Forced Hesitation|chase,pressure|6.5|Uma queda desacelera outros sobreviventes próximos; tem intervalo entre ativações.
+Forced Penance|pressure|5|Golpes de proteção deixam quem os recebe Quebrado temporariamente.
+Forever Entwined|pressure|5.5|Ferimentos acumulam velocidade para pegar, soltar e enganchar sobreviventes.
+Franklin's Demise|pressure|6|Ataques básicos fazem o sobrevivente largar o item; revela os itens derrubados dentro do alcance.
+Friends 'til the End|information,chase|7|Gancho fora da Obsessão revela e expõe a Obsessão. Enganchá-la transfere a Obsessão e faz o novo alvo gritar.
+Furtive Chase|stealth,mobility|6|Enganchar a Obsessão concede Indetectável e aceleração; quem a resgata se torna a nova Obsessão.
+Game Afoot|chase,mobility|5.5|Ataque básico no alvo mais perseguido transfere a Obsessão. Quebrar ou danificar durante a perseguição dela concede aceleração.
+Gearhead|information|6.5|Após uma perda de vida, testes bons em geradores revelam quem os realizou durante a janela de ativação.
+Genetic Limits|chase|6|Perder um estado de vida aplica Exaustão ao sobrevivente.
+Grim Embrace|block|8|Primeiros ganchos em sobreviventes diferentes ativam bloqueios ao se afastar do gancho; o quarto amplia o efeito.
+Haywire|endgame|4.5|Portões quase abertos passam a regredir quando a interação é interrompida; as luzes piscam durante a regressão.
+Help Wanted|regression,chase|7|Marca geradores danificados. Concluir um deles melhora ataques básicos e causa regressão automática temporária nos geradores sem reparo.
+Hex: Blood Favour|chase,block|7|Ferir com ataque básico bloqueia pallets ainda em pé perto do alvo enquanto o feitiço estiver ativo.
+Hex: Crowd Control|chase,block|6.5|Bloqueia um conjunto limitado de janelas saltadas rapidamente pelos sobreviventes e facilita seus saltos nessas janelas.
+Hex: Devour Hope|chase,pressure|7|Resgates distantes acumulam cargas para aceleração, Exposto e execução, enquanto o totem permanecer ativo.
+Hex: Face the Darkness|information|6.5|Ferir um alvo acende um totem que provoca gritos fora do raio de terror; o efeito muda quando esse alvo cura ou cai.
+Hex: Fortune's Fool|stealth,pressure|6.5|O primeiro gancho de cada sobrevivente pode acender um totem que o deixa Alheio, com proteção inicial contra limpeza por outros.
+Hex: Haunted Ground|chase|5|Dois totens formam uma armadilha: limpar ou abençoar um deles expõe todos temporariamente.
+Hex: Hive Mind|information,regression|6.5|Após o primeiro gancho, um totem revela progresso dos geradores. A quarta conclusão causa regressão nos restantes e encerra o feitiço.
+Hex: Huntress Lullaby|pressure|5|Amplia penalidades por testes falhos; ganchos atrasam e depois removem o aviso sonoro dos testes enquanto o totem estiver ativo.
+Hex: No One Escapes Death|endgame,chase|7|Ao energizar os portões, um totem comum restante concede aceleração e Exposto; seu totem pode ser encontrado e desativado.
+Hex: Nothing but Misery|chase|6.5|Após acumular golpes básicos, um totem faz novos golpes básicos desacelerarem os alvos e seus saltos.
+Hex: Overture of Doom|stealth|5.5|Amaldiçoa um gerador distante; repará-lo transfere seu raio de terror para ele e concede Indetectável.
+Hex: Pentimento|regression,pressure|6.5|Permite reacender totens limpos para reduzir cura e reparo. Reacender todos protege os totens restantes.
+Hex: Retribution|information,stealth|6|Interações de limpeza ou bênção causam Alheio; remover um feitiço revela todos os sobreviventes temporariamente.
+Hex: Ruin|regression|7|Geradores sem reparo regridem automaticamente enquanto o totem estiver ativo.
+Hex: Scared to Death|chase|6|Após enganchar três pessoas diferentes, um totem faz quebrar pallets em perseguição provocar gritos e lentidão próxima.
+Hex: The Third Seal|pressure|5|Golpes básicos ou especiais aplicam Cegueira a um número limitado de alvos enquanto o totem estiver ativo.
+Hex: Thrill of the Hunt|block,pressure|5.5|Primeiros ganchos acendem o feitiço; ganchos bloqueiam totens por uma duração ligada à quantidade de feitiços acesos.
+Hex: Two Can Play|chase|4.5|Após acumular cegueiras ou atordoamentos, acende um totem que cega quem voltar a cegar ou atordoar você.
+Hex: Under Your Thumb|chase,information|6|Um estado de gancho pode acender o totem: limita a aceleração de quem corre e denuncia acelerações próximas.
+Hex: Undying|pressure,information|7|Revela auras junto a totens comuns e pode receber um feitiço destruído, sendo consumido no lugar dele.
+Hex: Wretched Fate|regression|5.5|Após concluir um gerador, um totem reduz o reparo da Obsessão; ela pode localizar o totem nas proximidades.
+Hoarder|information|4.5|Adiciona baús e avisa sobre abertura de baús e coleta de itens dentro do alcance.
+Hubris|chase|6|Quem atordoa você fica Exposto temporariamente; há intervalo entre ativações.
+Human Greed|information|5|Revela alvos perto de baús fechados e permite fechar baús abertos com um chute.
+Hysteria|stealth|5|Ferir alguém saudável deixa os sobreviventes feridos Alheios temporariamente.
+I'm All Ears|information|7|Um salto rápido próximo revela temporariamente a aura de quem o realizou.
+Infectious Fright|information,pressure|7|Derrubar alguém faz outros sobreviventes no raio de terror gritarem e revelarem suas posições.
+Insidious|stealth|3.5|Ficar parado concede Indetectável, que persiste brevemente após voltar a andar.
+Iron Grasp|pressure|4.5|Reduz o balanço provocado pela luta e aumenta o tempo necessário para escapar enquanto você carrega alguém.
+Iron Maiden|chase,information|5|Acelera buscas em armários vazios; sair de um armário causa grito e Exposto ao sobrevivente.
+Keep Them Waiting|chase|7|Golpes básicos fora da Obsessão reduzem a recuperação de acertos; causar dano à Obsessão perde cargas.
+Knock Out|chase|6|Afasta-se de um pallet recém-derrubado sem que ele seja destruído: o sobrevivente sofre lentidão temporária.
+Languid Touch|chase|6|Assustar um corvo próximo aplica Exaustão ao sobrevivente, com intervalo entre ativações.
+Lay Waste|regression|6.5|Danificar um gerador aumenta sua velocidade de regressão conforme o progresso que ele possuía.
+Lethal Pursuer|information|8|Revela sobreviventes no início e prolonga leituras de aura com duração definida.
+Leverage|pressure|6|Quem realiza um resgate sofre redução temporária da velocidade de cura.
+Lightborn|information,utility|4|Impede cegueiras e revela brevemente a aura de quem tentou cegar você.
+Machine Learning|stealth,mobility|6|Marca geradores danificados; a conclusão de um marcado concede aceleração e Indetectável e limpa as marcas restantes.
+Mad Grit|pressure|4.5|Ao carregar alguém, elimina recuperação de erros e pausa a luta ao acertar outro sobrevivente.
+Make Your Choice|chase|6.5|Resgatar alguém longe de você faz o resgatador gritar e ficar Exposto temporariamente.
+Merciless Storm|block|6|Geradores quase concluídos exigem testes contínuos; falhar ou interromper bloqueia o gerador. Uma ativação por gerador.
+Mindbreaker|chase,pressure|6.5|Reparar geradores aplica Cegueira e Exaustão, com curta duração residual.
+Monitor & Abuse|stealth|5.5|Reduz o raio de terror fora de perseguições e o amplia durante uma perseguição.
+Nemesis|information,stealth|5|Cegar ou atordoar você pode transferir a Obsessão; uma nova Obsessão fica Alheia e tem a aura revelada.
+No Holds Barred|block|7.5|Quando um gerador termina, bloqueia temporariamente o gerador restante com mais progresso.
+No Quarter|pressure|5|Autocura avançada exige testes contínuos; falhar ou interromper deixa o sobrevivente Quebrado.
+No Way Out|endgame,block|8|Primeiros ganchos acumulam duração do bloqueio dos interruptores, ativado ao tentar abrir um portão.
+None Are Free|endgame,chase|5.5|Primeiros ganchos acumulam duração de bloqueio de janelas e pallets em pé após concluir todos os geradores.
+Nowhere to Hide|information|8|Danificar um gerador revela brevemente sobreviventes próximos desse gerador.
+Oppression|regression|6|Danificar um gerador inicia regressão em outros e exige testes difíceis de quem os estiver reparando.
+Overcharge|regression|5.5|Após danificar, prepara um teste difícil para a próxima interação e altera gradualmente a velocidade de regressão.
+Overwhelming Presence|chase,information|5.5|Uso de itens próximo causa Exaustão; Exaustão próxima revela a aura do alvo exausto mais próximo, com intervalo.
+Phantom Fear|information|5.5|Um sobrevivente no raio de terror que olha para você grita e revela brevemente a aura; há intervalo entre ativações.
+Pop Goes the Weasel|regression|8|Após um gancho, seu próximo dano a um gerador dentro da janela concede regressão adicional e consome o efeito.
+Predator|information|6|Perder uma perseguição revela a aura daquele sobrevivente; tem intervalo entre ativações.
+Rampage|mobility,chase|6|Quebrar pallets e paredes acumula cargas; cegueira ou atordoamento por pallet converte as cargas em aceleração temporária.
+Rancor|information,endgame|5.5|Conclusões de geradores denunciam sobreviventes e revelam você à Obsessão; no fim, ela fica Exposta e pode ser executada.
+Rapid Brutality|chase,mobility|6|Acertar um ataque básico concede aceleração temporária, mas remove a possibilidade de ganhar Sede de Sangue.
+Ravenous|pressure,chase|6|Primeiros ganchos melhoram transporte e velocidade de enganchar; quatro cargas fazem todos gritarem e ficarem Expostos.
+Remember Me|endgame|5.5|Ferir a Obsessão acumula tempo adicional para abrir portões, exceto para a própria Obsessão.
+Scourge Hook: Floods of Rage|information|7|Resgates em ganchos do tormento revelam as auras dos demais sobreviventes.
+Scourge Hook: Hangman's Trick|information|5|Revela sobreviventes próximos dos ganchos do tormento durante o transporte e alerta sobre sabotagem de ganchos.
+Scourge Hook: Jagged Compass|information,pressure|6.5|Resgates convertem ganchos comuns em ganchos do tormento; usar um deles destaca o gerador mais avançado.
+Scourge Hook: Monstrous Shrine|regression|5.5|Cria ganchos do tormento também no porão; manter distância de alguém nesses ganchos acelera a regressão de geradores.
+Scourge Hook: Pain Resonance|regression|8.5|O primeiro gancho do tormento de cada sobrevivente consome uma carga e causa regressão no gerador mais avançado.
+Scourge Hook: Weeping Wounds|pressure,regression|6|Resgates nesses ganchos causam Hemorragia; após a primeira cura completa, o alvo sofre lentidão de cura e reparo até se ferir.
+Secret Project|block,stealth|7|Limpar ou abençoar um totem bloqueia um gerador. Bloqueios de geradores concedem Indetectável temporariamente.
+See How They Run|mobility|6|Perder a Obsessão em perseguição acumula aceleração; ataques capazes de ferir consomem cargas.
+Septic Touch|pressure,chase|4.5|Curar dentro do raio de terror causa Cegueira e Exaustão, que persistem após a interrupção.
+Shadowborn|mobility|4.5|Ser cegado concede aceleração temporária.
+Shattered Hope|block,information|4.5|Destrói totens abençoados ao apagá-los; bênçãos ou destruições bloqueiam totens e revelam os abençoados temporariamente.
+Silent Shadow|stealth,endgame|6.5|Ganchos concedem Indetectável temporariamente; ao energizar os portões, o efeito dura até o fim da partida.
+Sloppy Butcher|pressure|7|Golpes básicos causam Hemorragia e Dilacerado temporários, prejudicando cura e sua manutenção.
+Spies from the Shadows|information|6|Corvos assustados por sobreviventes próximos geram alertas de localização.
+Spirit Fury|chase|6.5|Após quebrar pallets suficientes, destrói o próximo pallet que atordoar você; o atordoamento ainda ocorre.
+Starstruck|chase,pressure|6|Enquanto carrega alguém, aplica Exposto a outros no raio de terror, com duração residual.
+Stridor|information|4.5|Amplifica respiração e gemidos de dor dos sobreviventes.
+Superior Anatomy|chase|6|Um salto rápido próximo de um sobrevivente permite que você salte mais rápido por uma janela curta.
+Surge|regression|8|Uma queda por ataque básico faz geradores próximos perderem progresso e começarem a regredir.
+Surveillance|information|6|Distingue por aura geradores regredindo e os interrompidos por sobreviventes; facilita ouvir reparos.
+THWACK!|information|6|Quebrar pallets ou paredes consome cargas para provocar gritos e revelar auras próximas; ganchos repõem cargas.
+Terminus|endgame,pressure|5.5|Ao energizar portões, impede cura dos sobreviventes feridos, caídos ou enganchados até pouco depois de abrir uma saída.
+Territorial Imperative|information|4|Revela quem entra no porão quando você está distante, com intervalo entre ativações.
+Thanatophobia|pressure,regression|5.5|Feridos, caídos e enganchados reduzem velocidades de ações de todos; afetar os quatro aumenta a penalidade.
+Thrilling Tremors|block,information|6.5|Pegar alguém bloqueia geradores sem reparo e destaca os bloqueados, ajudando a identificar os ativos.
+Tinkerer|information,stealth|7|Ao atingir o limiar de reparo, cada gerador avisa sua localização e concede Indetectável uma vez.
+Trail of Torment|stealth|6|Danificar um gerador concede Indetectável enquanto ele regride, mas destaca esse gerador aos sobreviventes.
+Turn Back the Clock|regression|7|Após um gancho, permite usar a habilidade ativa para causar regressão num gerador próximo dentro da janela de ativação.
+Ultimate Weapon|information|6|Revistar um armário provoca gritos e Cegueira em sobreviventes próximos dele; tem intervalo entre ativações.
+Unbound|mobility,chase|5.5|Após ferir alguém, saltar uma janela concede aceleração temporária.
+Undone|regression,block|7|Ganchos acumulam cargas; danificar um gerador as consome para regressão imediata e bloqueio temporário.
+Unforeseen|stealth|6.5|Danificar um gerador transfere o raio de terror para ele e concede Indetectável temporariamente.
+Unnerving Presence|pressure|4.5|Dentro do raio de terror, aumenta a frequência de testes de cura e reparo e reduz suas zonas de sucesso.
+Unrelenting|chase|5.5|Acelera a recuperação de ataques básicos errados e, em menor grau, dos acertados.
+Wandering Eye|information|6.5|Iniciar uma perseguição revela outros sobreviventes feridos próximos, com intervalo entre ativações.
+Weave Attunement|information,stealth|6.5|Itens esgotados são largados; itens no chão revelam auras próximas. Pegar um item causa Alheio temporariamente.
+Whispers|information,mobility|6|Sussurros indicam sobreviventes próximos; concede aceleração quando não há sobreviventes no alcance.
+Zanshin Tactics|information|6.5|Revela pallets e janelas próximos e mostra a aura de quem derruba um pallet.

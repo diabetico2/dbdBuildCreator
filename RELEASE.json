@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-15",
+  "platform": "Windows x64",
+  "executable_bytes": 3173888,
+  "killers": 44,
+  "perk_names": 151,
+  "distinct_effects": 145,
+  "assets_license_pending": 195,
+  "tests": {
+    "unit_and_database": 11,
+    "ui": 4
+  }
+}
