@@ -96,5 +96,4 @@ O importador `scripts/build-catalog.mjs DIRETORIO` espera `official-characters.j
 - https://docs.nightlight.gg/icon-packs/resources/icon-changelog
 
 Os registros individuais mantêm URLs de referência. Consulte `VALIDACAO.md` para os testes executados e seus limites.
-#   d b d B u i l d C r e a t o r  
- 
+#
