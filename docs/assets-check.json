@@ -1,1572 +1,1175 @@
 {
-  "checked_at": "2026-10-16T11:24:43.523Z",
-  "summary": {
-    "assets": 195,
-    "ready": 195,
-    "broken": 0,
-    "bytes": 3542254,
-    "legacy_equivalent": 2
-  },
+  "checked_at": "2026-10-15T17:12:36.815Z",
   "results": [
     {
       "id": "killer:animatronic",
-      "path": "catalog/killers/animatronic.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/animatronic.png",
-      "status": "ready",
-      "bytes": 33314
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:artist",
-      "path": "catalog/killers/artist.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/artist.png",
-      "status": "ready",
-      "bytes": 41164
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:blight",
-      "path": "catalog/killers/blight.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/blight.png",
-      "status": "ready",
-      "bytes": 38216
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:cannibal",
-      "path": "catalog/killers/cannibal.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/cannibal.png",
-      "status": "ready",
-      "bytes": 39618
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:cenobite",
-      "path": "catalog/killers/cenobite.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/cenobite.png",
-      "status": "ready",
-      "bytes": 39100
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:clown",
-      "path": "catalog/killers/clown.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/clown.png",
-      "status": "ready",
-      "bytes": 39692
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:dark-lord",
-      "path": "catalog/killers/dark-lord.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/darklord.png",
-      "status": "ready",
-      "bytes": 34038
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:deathslinger",
-      "path": "catalog/killers/deathslinger.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/deathslinger.png",
-      "status": "ready",
-      "bytes": 34282
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:demogorgon",
-      "path": "catalog/killers/demogorgon.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/demogorgon.png",
-      "status": "ready",
-      "bytes": 34178
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:doctor",
-      "path": "catalog/killers/doctor.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/doctor.png",
-      "status": "ready",
-      "bytes": 32240
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:dredge",
-      "path": "catalog/killers/dredge.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/dredge.png",
-      "status": "ready",
-      "bytes": 36758
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:executioner",
-      "path": "catalog/killers/executioner.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/executioner.png",
-      "status": "ready",
-      "bytes": 29666
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:first",
-      "path": "catalog/killers/first.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/first.png",
-      "status": "ready",
-      "bytes": 43742
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:ghost-face",
-      "path": "catalog/killers/ghost-face.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/ghostface.png",
-      "status": "ready",
-      "bytes": 31960
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:ghoul",
-      "path": "catalog/killers/ghoul.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/ghoul.png",
-      "status": "ready",
-      "bytes": 29990
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:good-guy",
-      "path": "catalog/killers/good-guy.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/goodguy.png",
-      "status": "ready",
-      "bytes": 30080
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:hag",
-      "path": "catalog/killers/hag.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/hag.png",
-      "status": "ready",
-      "bytes": 32036
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:hillbilly",
-      "path": "catalog/killers/hillbilly.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/hillbilly.png",
-      "status": "ready",
-      "bytes": 34616
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:houndmaster",
-      "path": "catalog/killers/houndmaster.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/houndmaster.png",
-      "status": "ready",
-      "bytes": 35066
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:huntress",
-      "path": "catalog/killers/huntress.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/huntress.png",
-      "status": "ready",
-      "bytes": 31662
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:judgment",
-      "path": "catalog/killers/judgment.webp",
-      "variant": "standard",
-      "source_url": "https://assets.deadbydaylight.com/DBD_UDON_CHAPTER_STAND_ALONE_RENDERS_WEB_ASSETS_THE_JUDGMENT_CHARACTER_ONLY_af1b049c5a.png",
-      "status": "ready",
-      "bytes": 22050
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:knight",
-      "path": "catalog/killers/knight.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/knight.png",
-      "status": "ready",
-      "bytes": 39828
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:krasue",
-      "path": "catalog/killers/krasue.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/krasue.png",
-      "status": "ready",
-      "bytes": 42504
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:legion",
-      "path": "catalog/killers/legion.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/legion.png",
-      "status": "ready",
-      "bytes": 34240
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:lich",
-      "path": "catalog/killers/lich.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/lich.png",
-      "status": "ready",
-      "bytes": 39006
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:mastermind",
-      "path": "catalog/killers/mastermind.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/mastermind.png",
-      "status": "ready",
-      "bytes": 32230
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:nemesis",
-      "path": "catalog/killers/nemesis.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nemesis.png",
-      "status": "ready",
-      "bytes": 41148
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:nightmare",
-      "path": "catalog/killers/nightmare.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nightmare.png",
-      "status": "ready",
-      "bytes": 37178
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:nurse",
-      "path": "catalog/killers/nurse.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nurse.png",
-      "status": "ready",
-      "bytes": 29794
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:oni",
-      "path": "catalog/killers/oni.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/oni.png",
-      "status": "ready",
-      "bytes": 48724
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:onryo",
-      "path": "catalog/killers/onryo.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/onryo.png",
-      "status": "ready",
-      "bytes": 27622
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:pig",
-      "path": "catalog/killers/pig.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/pig.png",
-      "status": "ready",
-      "bytes": 31490
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:plague",
-      "path": "catalog/killers/plague.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/plague.png",
-      "status": "ready",
-      "bytes": 53210
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:shape",
-      "path": "catalog/killers/shape.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/shape.png",
-      "status": "ready",
-      "bytes": 33976
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:singularity",
-      "path": "catalog/killers/singularity.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/singularity.png",
-      "status": "ready",
-      "bytes": 43694
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:skull-merchant",
-      "path": "catalog/killers/skull-merchant.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/skullmerchant.png",
-      "status": "ready",
-      "bytes": 34884
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:slasher",
-      "path": "catalog/killers/slasher.webp",
-      "variant": "standard",
-      "source_url": "https://assets.deadbydaylight.com/DBD_SUSHI_CHAPTER_Character_Page_Jason_CHARACTER_77eb1fa23f.png",
-      "status": "ready",
-      "bytes": 6340
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:spirit",
-      "path": "catalog/killers/spirit.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/spirit.png",
-      "status": "ready",
-      "bytes": 37118
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:trapper",
-      "path": "catalog/killers/trapper.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/trapper.png",
-      "status": "ready",
-      "bytes": 31334
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:trickster",
-      "path": "catalog/killers/trickster.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/trickster.png",
-      "status": "ready",
-      "bytes": 34252
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:twins",
-      "path": "catalog/killers/twins.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/twins.png",
-      "status": "ready",
-      "bytes": 37728
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:unknown",
-      "path": "catalog/killers/unknown.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/unknown.png",
-      "status": "ready",
-      "bytes": 33634
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:wraith",
-      "path": "catalog/killers/wraith.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/wraith.png",
-      "status": "ready",
-      "bytes": 30516
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "killer:xenomorph",
-      "path": "catalog/killers/xenomorph.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/xenomorph.png",
-      "status": "ready",
-      "bytes": 42982
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:nurses",
-      "path": "catalog/perks/nurses.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/anursescalling.png",
-      "status": "ready",
-      "bytes": 9714
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:agitation",
-      "path": "catalog/perks/agitation.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/agitation.png",
-      "status": "ready",
-      "bytes": 10146
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:alien-instinct",
-      "path": "catalog/perks/alien-instinct.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/alieninstinct.png",
-      "status": "ready",
-      "bytes": 15388
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:all-shaking-thunder",
-      "path": "catalog/perks/all-shaking-thunder.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/allshakingthunder.png",
-      "status": "ready",
-      "bytes": 15858
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:awakened-awareness",
-      "path": "catalog/perks/awakened-awareness.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/awakenedawareness.png",
-      "status": "ready",
-      "bytes": 11144
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:bamboozle",
-      "path": "catalog/perks/bamboozle.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bamboozle.png",
-      "status": "ready",
-      "bytes": 14506
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:barbecue-chilli",
-      "path": "catalog/perks/barbecue-chilli.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/barbecueandchilli.png",
-      "status": "ready",
-      "bytes": 13268
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:batteries-included",
-      "path": "catalog/perks/batteries-included.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/batteriesincluded.png",
-      "status": "ready",
-      "bytes": 10212
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:beast-of-prey",
-      "path": "catalog/perks/beast-of-prey.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/beastofprey.png",
-      "status": "ready",
-      "bytes": 11550
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:bitter-murmur",
-      "path": "catalog/perks/bitter-murmur.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bittermurmur.png",
-      "status": "ready",
-      "bytes": 9284
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:blood-echo",
-      "path": "catalog/perks/blood-echo.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodecho.png",
-      "status": "ready",
-      "bytes": 12890
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:blood-warden",
-      "path": "catalog/perks/blood-warden.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodwarden.png",
-      "status": "ready",
-      "bytes": 14912
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:bloodhound",
-      "path": "catalog/perks/bloodhound.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodhound.png",
-      "status": "ready",
-      "bytes": 9290
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:brutal",
-      "path": "catalog/perks/brutal.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/brutalstrength.png",
-      "status": "ready",
-      "bytes": 9094
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:call-of-brine",
-      "path": "catalog/perks/call-of-brine.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/callofbrine.png",
-      "status": "ready",
-      "bytes": 15068
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:celestial-witness",
-      "path": "catalog/perks/celestial-witness.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/325a85d673c634f38bb530c0ef3afccd/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Celestial_Witness_bda6ef314c.png",
-      "status": "ready",
-      "bytes": 8326
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:corrupt",
-      "path": "catalog/perks/corrupt.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/corruptintervention.png",
-      "status": "ready",
-      "bytes": 14048
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:coulrophobia",
-      "path": "catalog/perks/coulrophobia.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/coulrophobia.png",
-      "status": "ready",
-      "bytes": 16838
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:coup-de-grace",
-      "path": "catalog/perks/coup-de-grace.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/coupdegrace.png",
-      "status": "ready",
-      "bytes": 11310
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:cruel-limits",
-      "path": "catalog/perks/cruel-limits.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/cruellimits.png",
-      "status": "ready",
-      "bytes": 15204
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:cull-the-weak",
-      "path": "catalog/perks/cull-the-weak.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dyinglight.png",
-      "status": "ready",
-      "bytes": 11366
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dark-arrogance",
-      "path": "catalog/perks/dark-arrogance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darkarrogance.png",
-      "status": "ready",
-      "bytes": 14530
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dark-devotion",
-      "path": "catalog/perks/dark-devotion.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darkdevotion.png",
-      "status": "ready",
-      "bytes": 18654
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:darkness-revealed",
-      "path": "catalog/perks/darkness-revealed.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darknessrevealed.png",
-      "status": "ready",
-      "bytes": 14994
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dead-mans-switch",
-      "path": "catalog/perks/dead-mans-switch.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadmansswitch.png",
-      "status": "ready",
-      "bytes": 15602
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:deadlock",
-      "path": "catalog/perks/deadlock.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadlock.png",
-      "status": "ready",
-      "bytes": 15332
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:deathbound",
-      "path": "catalog/perks/deathbound.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deathbound.png",
-      "status": "ready",
-      "bytes": 10150
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:deerstalker",
-      "path": "catalog/perks/deerstalker.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deerstalker.png",
-      "status": "ready",
-      "bytes": 9090
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:discordance",
-      "path": "catalog/perks/discordance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/discordance.png",
-      "status": "ready",
-      "bytes": 8890
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dissolution",
-      "path": "catalog/perks/dissolution.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dissolution.png",
-      "status": "ready",
-      "bytes": 12996
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:distressing",
-      "path": "catalog/perks/distressing.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/distressing.png",
-      "status": "ready",
-      "bytes": 9854
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dominance",
-      "path": "catalog/perks/dominance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dominance.png",
-      "status": "ready",
-      "bytes": 12448
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dragons-grip",
-      "path": "catalog/perks/dragons-grip.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dragonsgrip.png",
-      "status": "ready",
-      "bytes": 17810
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:dying-light",
-      "path": "catalog/perks/dying-light.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dyinglight.png",
-      "status": "ready",
-      "bytes": 11366
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:enduring",
-      "path": "catalog/perks/enduring.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/enduring.png",
-      "status": "ready",
-      "bytes": 12132
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:eruption",
-      "path": "catalog/perks/eruption.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/eruption.png",
-      "status": "ready",
-      "bytes": 13456
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:fire-up",
-      "path": "catalog/perks/fire-up.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/fireup.png",
-      "status": "ready",
-      "bytes": 13402
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:forced-hesitation",
-      "path": "catalog/perks/forced-hesitation.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/forcedhesitation.png",
-      "status": "ready",
-      "bytes": 16536
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:forced-penance",
-      "path": "catalog/perks/forced-penance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/forcedpenance.png",
-      "status": "ready",
-      "bytes": 11548
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:forever-entwined",
-      "path": "catalog/perks/forever-entwined.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/foreverentwined.png",
-      "status": "ready",
-      "bytes": 16516
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:franklins-demise",
-      "path": "catalog/perks/franklins-demise.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/franklinsdemise.png",
-      "status": "ready",
-      "bytes": 9812
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:friends-til-the-end",
-      "path": "catalog/perks/friends-til-the-end.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/friendstiltheend.png",
-      "status": "ready",
-      "bytes": 11482
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:furtive-chase",
-      "path": "catalog/perks/furtive-chase.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/furtivechase.png",
-      "status": "ready",
-      "bytes": 17384
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:game-afoot",
-      "path": "catalog/perks/game-afoot.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/gameafoot.png",
-      "status": "ready",
-      "bytes": 14448
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:gearhead",
-      "path": "catalog/perks/gearhead.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/gearhead.png",
-      "status": "ready",
-      "bytes": 9902
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:genetic-limits",
-      "path": "catalog/perks/genetic-limits.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/geneticlimits.png",
-      "status": "ready",
-      "bytes": 14072
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:grim",
-      "path": "catalog/perks/grim.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/grimembrace.png",
-      "status": "ready",
-      "bytes": 13844
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:haywire",
-      "path": "catalog/perks/haywire.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/haywire.png",
-      "status": "ready",
-      "bytes": 15430
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:help-wanted",
-      "path": "catalog/perks/help-wanted.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/helpwanted.png",
-      "status": "ready",
-      "bytes": 12218
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-blood-favour",
-      "path": "catalog/perks/hex-blood-favour.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexbloodfavor.png",
-      "status": "ready",
-      "bytes": 15972
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-crowd-control",
-      "path": "catalog/perks/hex-crowd-control.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexcrowdcontrol.png",
-      "status": "ready",
-      "bytes": 19264
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-devour-hope",
-      "path": "catalog/perks/hex-devour-hope.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexdevourhope.png",
-      "status": "ready",
-      "bytes": 10096
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-face-the-darkness",
-      "path": "catalog/perks/hex-face-the-darkness.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexfacethedarkness.png",
-      "status": "ready",
-      "bytes": 14868
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-fortunes-fool",
-      "path": "catalog/perks/hex-fortunes-fool.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexplaything.png",
-      "status": "ready",
-      "bytes": 12862
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:haunted",
-      "path": "catalog/perks/haunted.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhauntedground.png",
-      "status": "ready",
-      "bytes": 14456
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-hive-mind",
-      "path": "catalog/perks/hex-hive-mind.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhivemind.png",
-      "status": "ready",
-      "bytes": 16726
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-huntress-lullaby",
-      "path": "catalog/perks/hex-huntress-lullaby.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhuntresslullaby.png",
-      "status": "ready",
-      "bytes": 11286
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-no-one-escapes-death",
-      "path": "catalog/perks/hex-no-one-escapes-death.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexnooneescapesdeath.png",
-      "status": "ready",
-      "bytes": 9288
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-nothing-but-misery",
-      "path": "catalog/perks/hex-nothing-but-misery.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexnothingbutmisery.png",
-      "status": "ready",
-      "bytes": 14634
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-overture-of-doom",
-      "path": "catalog/perks/hex-overture-of-doom.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexovertureofdoom.png",
-      "status": "ready",
-      "bytes": 18076
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:pentimento",
-      "path": "catalog/perks/pentimento.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexpentimento.png",
-      "status": "ready",
-      "bytes": 13508
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-plaything",
-      "path": "catalog/perks/hex-plaything.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexplaything.png",
-      "status": "ready",
-      "bytes": 12862
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-retribution",
-      "path": "catalog/perks/hex-retribution.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexretribution.png",
-      "status": "ready",
-      "bytes": 16276
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-ruin",
-      "path": "catalog/perks/hex-ruin.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexruin.png",
-      "status": "ready",
-      "bytes": 11868
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-scared-to-death",
-      "path": "catalog/perks/hex-scared-to-death.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/33d68709c1a215ef0d2d4f94fac5e24f/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Scared_To_Death_e45eeebdbd.png",
-      "status": "ready",
-      "bytes": 9800
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-the-third-seal",
-      "path": "catalog/perks/hex-the-third-seal.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexthethirdseal.png",
-      "status": "ready",
-      "bytes": 10244
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-thrill-of-the-hunt",
-      "path": "catalog/perks/hex-thrill-of-the-hunt.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexthrillofthehunt.png",
-      "status": "ready",
-      "bytes": 10830
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-two-can-play",
-      "path": "catalog/perks/hex-two-can-play.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hextwocanplay.png",
-      "status": "ready",
-      "bytes": 14468
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-under-your-thumb",
-      "path": "catalog/perks/hex-under-your-thumb.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/c2f2fa31a9ff2a89092bb6c1fa53074d/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Hex_Under_Your_Thumb_36258ab533.png",
-      "status": "ready",
-      "bytes": 8574
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-undying",
-      "path": "catalog/perks/hex-undying.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexundying.png",
-      "status": "ready",
-      "bytes": 15362
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hex-wretched-fate",
-      "path": "catalog/perks/hex-wretched-fate.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexwretchedfate.png",
-      "status": "ready",
-      "bytes": 15378
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hoarder",
-      "path": "catalog/perks/hoarder.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hoarder.png",
-      "status": "ready",
-      "bytes": 14922
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hubris",
-      "path": "catalog/perks/hubris.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hubris.png",
-      "status": "ready",
-      "bytes": 10782
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:human-greed",
-      "path": "catalog/perks/human-greed.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/humangreed.png",
-      "status": "ready",
-      "bytes": 14740
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:hysteria",
-      "path": "catalog/perks/hysteria.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hysteria.png",
-      "status": "ready",
-      "bytes": 13036
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:im-all-ears",
-      "path": "catalog/perks/im-all-ears.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/imallears.png",
-      "status": "ready",
-      "bytes": 13526
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:infectious",
-      "path": "catalog/perks/infectious.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/infectiousfright.png",
-      "status": "ready",
-      "bytes": 13862
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:insidious",
-      "path": "catalog/perks/insidious.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/insidious.png",
-      "status": "ready",
-      "bytes": 9262
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:iron-grasp",
-      "path": "catalog/perks/iron-grasp.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/irongrasp.png",
-      "status": "ready",
-      "bytes": 8522
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:iron-maiden",
-      "path": "catalog/perks/iron-maiden.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ironmaiden.png",
-      "status": "ready",
-      "bytes": 11258
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:keep-them-waiting",
-      "path": "catalog/perks/keep-them-waiting.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/DanteASC4/dbd-assets/b4364f68b27ba9eca92d065fa1fa2c310d72fe41/Perks/NoLicense/iconPerks_saveTheBestForLast.png",
-      "status": "ready",
-      "bytes": 14422
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:knock-out",
-      "path": "catalog/perks/knock-out.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/knockout.png",
-      "status": "ready",
-      "bytes": 10984
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:languid-touch",
-      "path": "catalog/perks/languid-touch.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/languidtouch.png",
-      "status": "ready",
-      "bytes": 15494
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:lay-waste",
-      "path": "catalog/perks/lay-waste.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/379cfa746311c907ffa81b73ec697f38/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Lay_Waster_0cac837aab.png",
-      "status": "ready",
-      "bytes": 10092
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:lethal-pursuer",
-      "path": "catalog/perks/lethal-pursuer.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/lethalpursuer.png",
-      "status": "ready",
-      "bytes": 13740
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:leverage",
-      "path": "catalog/perks/leverage.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/leverage.png",
-      "status": "ready",
-      "bytes": 15320
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:lightborn",
-      "path": "catalog/perks/lightborn.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/lightborn.png",
-      "status": "ready",
-      "bytes": 11454
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:machine-learning",
-      "path": "catalog/perks/machine-learning.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/machinelearning.png",
-      "status": "ready",
-      "bytes": 13694
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:mad-grit",
-      "path": "catalog/perks/mad-grit.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/madgrit.png",
-      "status": "ready",
-      "bytes": 16558
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:make-your-choice",
-      "path": "catalog/perks/make-your-choice.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/makeyourchoice.png",
-      "status": "ready",
-      "bytes": 9822
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:merciless-storm",
-      "path": "catalog/perks/merciless-storm.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/mercilessstorm.png",
-      "status": "ready",
-      "bytes": 17526
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:mindbreaker",
-      "path": "catalog/perks/mindbreaker.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/mindbreaker.png",
-      "status": "ready",
-      "bytes": 15250
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:monitor-abuse",
-      "path": "catalog/perks/monitor-abuse.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/monitorandabuse.png",
-      "status": "ready",
-      "bytes": 14848
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:nemesis",
-      "path": "catalog/perks/nemesis.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nemesis.png",
-      "status": "ready",
-      "bytes": 16416
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:no-holds-barred",
-      "path": "catalog/perks/no-holds-barred.webp",
-      "variant": "legacy_equivalent",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadlock.png",
-      "status": "ready",
-      "bytes": 15332
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:no-quarter",
-      "path": "catalog/perks/no-quarter.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/noquarter.png",
-      "status": "ready",
-      "bytes": 17836
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:no-way-out",
-      "path": "catalog/perks/no-way-out.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nowayout.png",
-      "status": "ready",
-      "bytes": 14528
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:none-are-free",
-      "path": "catalog/perks/none-are-free.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nonearefree.png",
-      "status": "ready",
-      "bytes": 15344
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:nowhere-to-hide",
-      "path": "catalog/perks/nowhere-to-hide.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nowheretohide.png",
-      "status": "ready",
-      "bytes": 14146
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:oppression",
-      "path": "catalog/perks/oppression.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/oppression.png",
-      "status": "ready",
-      "bytes": 11990
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:overcharge",
-      "path": "catalog/perks/overcharge.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/overcharge.png",
-      "status": "ready",
-      "bytes": 13872
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:overwhelming-presence",
-      "path": "catalog/perks/overwhelming-presence.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/overwhelmingpresence.png",
-      "status": "ready",
-      "bytes": 11320
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:phantom-fear",
-      "path": "catalog/perks/phantom-fear.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/phantomfear.png",
-      "status": "ready",
-      "bytes": 12756
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:play-with-your-food",
-      "path": "catalog/perks/play-with-your-food.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/playwithyourfood.png",
-      "status": "ready",
-      "bytes": 11342
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:pop",
-      "path": "catalog/perks/pop.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/popgoestheweasel.png",
-      "status": "ready",
-      "bytes": 12528
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:predator",
-      "path": "catalog/perks/predator.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/predator.png",
-      "status": "ready",
-      "bytes": 12674
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:rampage",
-      "path": "catalog/perks/rampage.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/b0a179f8c7eaae5379cb71aa5213c899/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Rampage_7d2cf083b8.png",
-      "status": "ready",
-      "bytes": 9484
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:rancor",
-      "path": "catalog/perks/rancor.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rancor.png",
-      "status": "ready",
-      "bytes": 15852
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:rapid-brutality",
-      "path": "catalog/perks/rapid-brutality.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rapidbrutality.png",
-      "status": "ready",
-      "bytes": 15410
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:ravenous",
-      "path": "catalog/perks/ravenous.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ravenous.png",
-      "status": "ready",
-      "bytes": 12990
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:remember-me",
-      "path": "catalog/perks/remember-me.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rememberme.png",
-      "status": "ready",
-      "bytes": 11916
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:save-the-best-for-last",
-      "path": "catalog/perks/save-the-best-for-last.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/savethebestforlast.png",
-      "status": "ready",
-      "bytes": 13578
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-floods-of-rage",
-      "path": "catalog/perks/scourge-hook-floods-of-rage.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookfloodsofrage.png",
-      "status": "ready",
-      "bytes": 15416
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-gift-of-pain",
-      "path": "catalog/perks/scourge-hook-gift-of-pain.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookgiftofpain.png",
-      "status": "ready",
-      "bytes": 14954
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-hangmans-trick",
-      "path": "catalog/perks/scourge-hook-hangmans-trick.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookhangmanstrick.png",
-      "status": "ready",
-      "bytes": 8568
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-jagged-compass",
-      "path": "catalog/perks/scourge-hook-jagged-compass.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookjaggedcompass.png",
-      "status": "ready",
-      "bytes": 14116
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-monstrous-shrine",
-      "path": "catalog/perks/scourge-hook-monstrous-shrine.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookmonstrousshrine.png",
-      "status": "ready",
-      "bytes": 10496
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:pain-resonance",
-      "path": "catalog/perks/pain-resonance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookpainresonance.png",
-      "status": "ready",
-      "bytes": 13820
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:scourge-hook-weeping-wounds",
-      "path": "catalog/perks/scourge-hook-weeping-wounds.webp",
-      "variant": "legacy_equivalent",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookgiftofpain.png",
-      "status": "ready",
-      "bytes": 14954
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:secret-project",
-      "path": "catalog/perks/secret-project.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/secretproject.png",
-      "status": "ready",
-      "bytes": 13526
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:see-how-they-run",
-      "path": "catalog/perks/see-how-they-run.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/playwithyourfood.png",
-      "status": "ready",
-      "bytes": 11342
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:septic-touch",
-      "path": "catalog/perks/septic-touch.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/septictouch.png",
-      "status": "ready",
-      "bytes": 14010
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:shadowborn",
-      "path": "catalog/perks/shadowborn.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/shadowborn.png",
-      "status": "ready",
-      "bytes": 10568
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:shattered-hope",
-      "path": "catalog/perks/shattered-hope.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/shatteredhope.png",
-      "status": "ready",
-      "bytes": 14888
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:silent-shadow",
-      "path": "catalog/perks/silent-shadow.webp",
-      "variant": "standard",
-      "source_url": "https://deadbydaylight.com/static/85439980e0059cc9821b15781a0cb6e7/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Silent_Shadow_46dc4189eb.png",
-      "status": "ready",
-      "bytes": 9960
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:sloppy-butcher",
-      "path": "catalog/perks/sloppy-butcher.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/sloppybutcher.png",
-      "status": "ready",
-      "bytes": 8506
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:spies-from-the-shadows",
-      "path": "catalog/perks/spies-from-the-shadows.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/spiesfromtheshadows.png",
-      "status": "ready",
-      "bytes": 7472
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:spirit-fury",
-      "path": "catalog/perks/spirit-fury.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/spiritfury.png",
-      "status": "ready",
-      "bytes": 13116
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:starstruck",
-      "path": "catalog/perks/starstruck.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/starstruck.png",
-      "status": "ready",
-      "bytes": 14964
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:stridor",
-      "path": "catalog/perks/stridor.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/stridor.png",
-      "status": "ready",
-      "bytes": 11966
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:superior-anatomy",
-      "path": "catalog/perks/superior-anatomy.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/superioranatomy.png",
-      "status": "ready",
-      "bytes": 13188
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:surge",
-      "path": "catalog/perks/surge.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/surge.png",
-      "status": "ready",
-      "bytes": 17526
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:surveillance",
-      "path": "catalog/perks/surveillance.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/surveillance.png",
-      "status": "ready",
-      "bytes": 12362
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:thwack",
-      "path": "catalog/perks/thwack.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thwack.png",
-      "status": "ready",
-      "bytes": 17344
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:terminus",
-      "path": "catalog/perks/terminus.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/terminus.png",
-      "status": "ready",
-      "bytes": 16356
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:territorial-imperative",
-      "path": "catalog/perks/territorial-imperative.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/territorialimperative.png",
-      "status": "ready",
-      "bytes": 11354
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:thanatophobia",
-      "path": "catalog/perks/thanatophobia.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thanatophobia.png",
-      "status": "ready",
-      "bytes": 10512
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:thrilling-tremors",
-      "path": "catalog/perks/thrilling-tremors.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thrillingtremors.png",
-      "status": "ready",
-      "bytes": 13382
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:tinkerer",
-      "path": "catalog/perks/tinkerer.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/tinkerer.png",
-      "status": "ready",
-      "bytes": 8144
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:trail-of-torment",
-      "path": "catalog/perks/trail-of-torment.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/trailoftorment.png",
-      "status": "ready",
-      "bytes": 16198
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:turn-back-the-clock",
-      "path": "catalog/perks/turn-back-the-clock.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/turnbacktheclock.png",
-      "status": "ready",
-      "bytes": 14648
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:ultimate-weapon",
-      "path": "catalog/perks/ultimate-weapon.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ultimateweapon.png",
-      "status": "ready",
-      "bytes": 11750
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:unbound",
-      "path": "catalog/perks/unbound.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unbound.png",
-      "status": "ready",
-      "bytes": 16794
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:undone",
-      "path": "catalog/perks/undone.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/undone.png",
-      "status": "ready",
-      "bytes": 15392
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:unforeseen",
-      "path": "catalog/perks/unforeseen.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unforeseen.png",
-      "status": "ready",
-      "bytes": 17996
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:unnerving",
-      "path": "catalog/perks/unnerving.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unnervingpresence.png",
-      "status": "ready",
-      "bytes": 11618
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:unrelenting",
-      "path": "catalog/perks/unrelenting.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unrelenting.png",
-      "status": "ready",
-      "bytes": 10050
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:wandering-eye",
-      "path": "catalog/perks/wandering-eye.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/wanderingeye.png",
-      "status": "ready",
-      "bytes": 16126
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:weave-attunement",
-      "path": "catalog/perks/weave-attunement.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/weaveattunement.png",
-      "status": "ready",
-      "bytes": 16846
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:whispers",
-      "path": "catalog/perks/whispers.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/whispers.png",
-      "status": "ready",
-      "bytes": 11580
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     },
     {
       "id": "perk:zanshin-tactics",
-      "path": "catalog/perks/zanshin-tactics.webp",
-      "variant": "standard",
-      "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/zanshintactics.png",
-      "status": "ready",
-      "bytes": 15106
+      "status": "license_pending",
+      "checked": false,
+      "reason": "A política de fãs não concede autorização geral para aplicativos. Aguardar autorização específica da BHVR e, quando aplicável, do titular da franquia."
     }
   ]
 }

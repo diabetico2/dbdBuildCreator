@@ -1,29 +1,4 @@
-# Validação — versão 0.3.0
-
-Verificado em 16/10/2026 no Windows.
-
-- **17 testes de lógica, imagens, confirmação e PostgreSQL/PGlite aprovados.** Cobrem disponibilidade por assassino, nomes equivalentes, bloqueios manuais, quatro efeitos únicos por receita, requisitos de add-ons, notas das favoritas, catálogo incompleto e as restrições/RLS existentes.
-- **6 testes de interface aprovados no Chrome**, com os arquivos de produção. Incluem os fluxos anteriores, seis receitas, busca/filtros, adaptação, salvamento/reabertura do plano, retorno ao recomendador, decodificação real dos retratos/ícones e fallback de imagem ausente.
-- Sete telas verificadas em **680 × 520** sem transbordamento horizontal. A página de temas foi revisada visualmente em capturas de 1000 × 720 e 680 × 520.
-- **195 WebP verificados** por assinatura, tamanho e SHA-256: 44 retratos e 151 ícones, total de 3.542.254 bytes. Duas entradas usam arte legada equivalente, identificada nos créditos. Nenhum download externo de imagem durante o teste de uso.
-- **Executável Windows x64 0.3.0 compilado** com Tauri 2.12.3 e Rust 1.99.0, perfil release, sem instalador. O arquivo em `windows/DBD-Build-Companion.exe` tem 6.673.408 bytes e versão de arquivo 0.3.0. Hash em `RELEASE.json` e `SHA256SUMS.txt`.
-- Frontend Vite compilado: JavaScript principal 524,06 kB (108,75 kB gzip), worker 3,98 kB e CSS 24,05 kB. O aviso de chunk principal acima de 500 kB não impediu a compilação; não foi alterado o limite para ocultá-lo.
-- Nenhuma migração ou alteração de dados remotos foi necessária. A 0.3 usa a coluna de notas existente nas favoritas; as imagens são incluídas localmente.
-- `.env` ignorado e ausente dos arquivos versionados. A configuração incorporada ao executável contém apenas URL e chave publishable do projeto.
-
-## Limites
-
-Os testes de login, confirmação e restauração usam API simulada. Não houve envio de e-mail nem login com conta real nesta atualização. Recebimento de e-mails, SMTP e login real permanecem para conferir no primeiro uso.
-
-Não houve teste interativo do WebView2 nativo nem medição de RAM/CPU com o DBD aberto. A compilação nativa e os testes do frontend no Chrome não substituem essas verificações.
-
-As receitas são variações editoriais com referências, não resultados de partidas medidas. Add-ons não têm inventário próprio nem entram no modelo numérico. Mudanças de patch podem exigir revisão. As traduções pendentes e as duas artes legadas estão documentadas em `docs/PENDENCIAS.md`.
-
-## Histórico da validação 0.2.0
-
-O texto abaixo registra a versão anterior; suas pendências de imagens foram resolvidas conforme descrito acima.
-
-### Registro anterior
+# Validação — versão 0.2.0
 
 Verificado em 15/10/2026.
 

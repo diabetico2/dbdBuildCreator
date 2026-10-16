@@ -1,14 +1,21 @@
-# Pendências e limites da versão 0.3.0
+# Pendências da versão 0.2.0
 
-## Imagens
+## Retratos e ícones
 
-As 195 imagens reais agora estão incluídas no aplicativo. Fontes, créditos, transformações e hashes estão em `IMAGENS.md` e `src/asset-manifest.json`.
+Os 44 retratos e os 151 ícones possuem registros individuais, identificadores e URLs de origem em `dbc_assets` e `src/catalog-data.json`. Nenhuma imagem foi incorporada ao executável nem publicada no Supabase Storage nesta entrega.
 
-Duas artes atuais ainda não foram confirmadas: No Holds Barred e Scourge Hook: Weeping Wounds. Elas usam os ícones reais dos efeitos legados equivalentes (Deadlock e Gift of Pain), explicitamente identificados.
+A política da Behaviour sobre conteúdo de fãs contém uma restrição específica a jogos, aplicativos e experiências interativas derivados de seus jogos. A autorização genérica para conteúdo não comercial não resolve o uso de imagens neste aplicativo. Conteúdo de franquias externas também depende dos respectivos titulares. Por isso todos os assets estão em `license_pending`, inclusive os personagens originais da BHVR. Isso não é uma declaração de aprovação oficial do aplicativo.
 
-## Builds temáticas
+Referências consultadas em 15/10/2026:
 
-As dezenove receitas são variações editoriais dos arquétipos citados e de builds de diversão do fórum da BHVR (tópicos "fun killer builds" e "meme builds"), com referências; as seis primeiras foram revisadas em 15/10/2026 e as demais em 16/10/2026. As builds do Reddit não puderam ser lidas automaticamente (acesso bloqueado). Add-ons não têm inventário próprio: o usuário precisa conferir os requisitos no jogo, e os nomes dos add-ons das receitas novas vêm da lista da comunidade e podem divergir do jogo. O modelo de pontuação não calcula efeitos de add-ons. Não houve avaliação competitiva em partidas reais.
+- https://www.bhvr.com/fan-created-content/ — seção Games and applications e conteúdo de terceiros.
+- https://www.bhvr.com/terms-of-use/ — seção V.E.
+
+**Próximo passo necessário:** obter confirmação específica do escopo autorizado com a titular dos direitos. A autorização do usuário para desenvolver o programa não substitui a autorização de direitos autorais de terceiros. Não foi enviada nenhuma mensagem à BHVR.
+
+Com autorização documentada, um administrador poderá publicar os arquivos correspondentes no bucket `dbc-assets`, nas pastas `killers/` e `perks/`, registrar a prova de autorização, preencher `storage_path` e mudar `status` para `ready`. O cliente já suporta PNG, WebP e JPG, carregamento sob demanda, cache em memória limitado e detecção de falhas. Não conceder permissão de upload do catálogo a usuários comuns. Não extrair arquivos da instalação do jogo.
+
+`node scripts/check-assets.mjs` verifica os arquivos marcados como publicados e gera `docs/assets-check.json`. `--sources` também testa os links de origem com HEAD; não confirma direitos de uso e não copia imagens. O ambiente desta entrega não resolveu os domínios externos pelo runtime, portanto os links das imagens não foram validados por HTTP. O relatório não confunde ausência de verificação com link funcionando.
 
 ## Traduções e efeitos
 
@@ -20,7 +27,7 @@ Os efeitos são resumos funcionais editoriais, sem todos os números por nível.
 
 ## Testes e autenticação
 
-Na versão 0.2, o banco real foi validado com usuários sintéticos dentro de uma transação revertida. A 0.3 não altera o schema nem os dados do catálogo remoto. O fluxo completo de interface e a restauração de dados após novo login foram exercitados com API simulada. Não foi enviado e-mail de teste e não houve login com uma conta real nesta execução.
+O banco real foi validado com usuários sintéticos dentro de uma transação revertida. O fluxo completo de interface e a restauração de dados após novo login foram exercitados com API simulada. Não foi enviado e-mail de teste e não houve login com uma conta real nesta execução.
 
 O envio padrão de e-mail do Supabase pode atender somente membros da organização e possui limites. Para outros destinatários, configure SMTP conforme a documentação. A verificação de senhas vazadas está desabilitada no projeto; não foi ativado plano pago para habilitar recursos. Referência: https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection
 
