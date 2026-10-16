@@ -32,7 +32,19 @@ jobs:
       - name: Testar projeto
         run: npm test
 
-      - name: Gerar instalador e publicar
+      - name: Verificar imagens locais
+        run: node scripts/check-assets.mjs
+
+      - name: Testar interface e imagens empacotadas
+        run: |
+          npm run build
+          npm run test:ui
+        env:
+          DBC_STATIC_TEST: '1'
+          VITE_SUPABASE_URL: https://dbc-test.supabase.co
+          VITE_SUPABASE_PUBLISHABLE_KEY: sb_publishable_test_fixture
+
+      - name: Gerar instalador em rascunho
         uses: tauri-apps/tauri-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,6 +54,6 @@ jobs:
           tagName: v__VERSION__
           releaseName: DBD Build Companion v__VERSION__
           releaseBody: 'Baixe o instalador do Windows em Assets.'
-          releaseDraft: false
+          releaseDraft: true
           prerelease: false
           uploadUpdaterJson: false
