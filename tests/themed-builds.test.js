@@ -6,8 +6,9 @@ import {themedBuilds,prepareThemedBuild,themedStatus,themedNotes} from '../src/t
 const input={catalog,collection:[],overrides:[],killerId:'legion',weights:catalog.config.weights};
 const preset=id=>themedBuilds.find(p=>p.id===id);
 
-test('seis receitas completas não inventam desbloqueios nem repetem efeitos',()=>{
- assert.equal(themedBuilds.length,6);
+test('todas as receitas completas não inventam desbloqueios nem repetem efeitos',()=>{
+ assert.equal(themedBuilds.length,19);
+ assert.equal(new Set(themedBuilds.map(p=>p.id)).size,19);
  for(const p of themedBuilds){
   const status=themedStatus(p,input);assert.equal(status.error,null);assert.equal(status.missing.length,4);
   assert.equal(status.build.perks.length,4);assert.equal(new Set(status.build.perks.map(family)).size,4);

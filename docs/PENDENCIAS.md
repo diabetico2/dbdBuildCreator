@@ -8,7 +8,7 @@ Duas artes atuais ainda não foram confirmadas: No Holds Barred e Scourge Hook: 
 
 ## Builds temáticas
 
-As seis receitas são variações editoriais dos arquétipos citados, com referências e revisão em 15/10/2026. Add-ons não têm inventário próprio: o usuário precisa conferir os requisitos no jogo. O modelo de pontuação não calcula efeitos de add-ons. Não houve avaliação competitiva em partidas reais.
+As dezenove receitas são variações editoriais dos arquétipos citados e de builds de diversão do fórum da BHVR (tópicos "fun killer builds" e "meme builds"), com referências; as seis primeiras foram revisadas em 15/10/2026 e as demais em 16/10/2026. As builds do Reddit não puderam ser lidas automaticamente (acesso bloqueado). Add-ons não têm inventário próprio: o usuário precisa conferir os requisitos no jogo, e os nomes dos add-ons das receitas novas vêm da lista da comunidade e podem divergir do jogo. O modelo de pontuação não calcula efeitos de add-ons. Não houve avaliação competitiva em partidas reais.
 
 ## Traduções e efeitos
 

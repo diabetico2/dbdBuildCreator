@@ -71,7 +71,7 @@ test('integração do cliente restaura coleção e favoritos ao entrar novamente
 test('builds temáticas: busca, requisitos, adaptação e notas preservadas no favorito',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await page.getByRole('button',{name:'Explorar catálogo'}).click();await nav(page,'themes');
- await expect(page.locator('.theme-card')).toHaveCount(6);
+ await expect(page.locator('.theme-card')).toHaveCount(19);
  await page.getByLabel('Perks da receita').selectOption('available');await expect(page.locator('.theme-card')).toHaveCount(0);
  await page.getByLabel('Perks da receita').selectOption('all');
  await page.getByLabel('Pesquisar nesta página').fill('nurse');await expect(page.locator('.theme-card')).toHaveCount(1);

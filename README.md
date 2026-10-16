@@ -16,7 +16,7 @@ Para confirmar a conta, copie o endereço original do botão recebido por e-mail
 - Coleção com 44 assassinos, pesquisa PT/EN, filtros e prestígios de P0 a P100.
 - Catálogo pesquisável com 151 nomes de perks e 145 efeitos distintos. Cada assassino possui três relações de perks; 19 entradas são gerais. Seis pares de nomes legados representam o mesmo efeito.
 - Retratos e ícones reais incluídos, com créditos e carregamento sob demanda.
-- Seis builds temáticas off-meta, com add-ons, planos de jogo e adaptação de perks.
+- Dezenove builds temáticas off-meta, com add-ons, planos de jogo e adaptação de perks.
 - Gerador com quatro efeitos únicos, três sugestões quando há diversidade suficiente e opção padrão de usar somente perks confirmadas.
 - Substituição de uma perk com pesquisa, categoria e classificação pela pontuação da combinação completa.
 - Detalhes, motivos, sinergias e limitações das builds.
@@ -34,7 +34,7 @@ Duas entradas usam a arte identificada do nome legado equivalente: No Holds Barr
 
 ## Builds temáticas off-meta
 
-Uma nova página reúne seis variações de arquétipos da comunidade: **Basement Trapper**, **M1 Nurse**, **Speedblitz Clown**, **Backpack Legion**, **Doctor dos testes de perícia** e **Wraith de fim de jogo**. Também há atalhos por assassino no gerador.
+Uma nova página reúne dezenove variações de arquétipos da comunidade: **Basement Trapper**, **M1 Nurse**, **Speedblitz Clown**, **Backpack Legion**, **Doctor dos testes de perícia** e **Wraith de fim de jogo**, além de builds de diversão do fórum da BHVR para Cavaleiro, Lich, Singularidade, Mercenário, Oni, Demogorgon, Ghost Face, Drácula, Draga, Animatrônico, Doctor, Legião e Porca. Também há atalhos por assassino no gerador.
 
 Cada receita tem quatro perks, plano de jogo, requisitos, alertas e referências. M1 Nurse exige **Spasmodic Breath**; esta variação de Speedblitz Clown exige **Cheap Gin Bottle**. O aplicativo não registra posse de add-ons. O filtro de disponibilidade verifica somente as quatro perks, usando a coleção e os desbloqueios do assassino da receita.
 
