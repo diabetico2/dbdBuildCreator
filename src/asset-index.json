@@ -1,0 +1,977 @@
+{
+  "killer:animatronic": {
+    "path": "catalog/killers/animatronic.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/animatronic.png",
+    "variant": "standard"
+  },
+  "killer:artist": {
+    "path": "catalog/killers/artist.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/artist.png",
+    "variant": "standard"
+  },
+  "killer:blight": {
+    "path": "catalog/killers/blight.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/blight.png",
+    "variant": "standard"
+  },
+  "killer:cannibal": {
+    "path": "catalog/killers/cannibal.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/cannibal.png",
+    "variant": "standard"
+  },
+  "killer:cenobite": {
+    "path": "catalog/killers/cenobite.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/cenobite.png",
+    "variant": "standard"
+  },
+  "killer:clown": {
+    "path": "catalog/killers/clown.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/clown.png",
+    "variant": "standard"
+  },
+  "killer:dark-lord": {
+    "path": "catalog/killers/dark-lord.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/darklord.png",
+    "variant": "standard"
+  },
+  "killer:deathslinger": {
+    "path": "catalog/killers/deathslinger.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/deathslinger.png",
+    "variant": "standard"
+  },
+  "killer:demogorgon": {
+    "path": "catalog/killers/demogorgon.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/demogorgon.png",
+    "variant": "standard"
+  },
+  "killer:doctor": {
+    "path": "catalog/killers/doctor.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/doctor.png",
+    "variant": "standard"
+  },
+  "killer:dredge": {
+    "path": "catalog/killers/dredge.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/dredge.png",
+    "variant": "standard"
+  },
+  "killer:executioner": {
+    "path": "catalog/killers/executioner.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/executioner.png",
+    "variant": "standard"
+  },
+  "killer:first": {
+    "path": "catalog/killers/first.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/first.png",
+    "variant": "standard"
+  },
+  "killer:ghost-face": {
+    "path": "catalog/killers/ghost-face.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/ghostface.png",
+    "variant": "standard"
+  },
+  "killer:ghoul": {
+    "path": "catalog/killers/ghoul.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/ghoul.png",
+    "variant": "standard"
+  },
+  "killer:good-guy": {
+    "path": "catalog/killers/good-guy.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/goodguy.png",
+    "variant": "standard"
+  },
+  "killer:hag": {
+    "path": "catalog/killers/hag.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/hag.png",
+    "variant": "standard"
+  },
+  "killer:hillbilly": {
+    "path": "catalog/killers/hillbilly.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/hillbilly.png",
+    "variant": "standard"
+  },
+  "killer:houndmaster": {
+    "path": "catalog/killers/houndmaster.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/houndmaster.png",
+    "variant": "standard"
+  },
+  "killer:huntress": {
+    "path": "catalog/killers/huntress.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/huntress.png",
+    "variant": "standard"
+  },
+  "killer:judgment": {
+    "path": "catalog/killers/judgment.webp",
+    "source_url": "https://assets.deadbydaylight.com/DBD_UDON_CHAPTER_STAND_ALONE_RENDERS_WEB_ASSETS_THE_JUDGMENT_CHARACTER_ONLY_af1b049c5a.png",
+    "variant": "standard"
+  },
+  "killer:knight": {
+    "path": "catalog/killers/knight.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/knight.png",
+    "variant": "standard"
+  },
+  "killer:krasue": {
+    "path": "catalog/killers/krasue.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/krasue.png",
+    "variant": "standard"
+  },
+  "killer:legion": {
+    "path": "catalog/killers/legion.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/legion.png",
+    "variant": "standard"
+  },
+  "killer:lich": {
+    "path": "catalog/killers/lich.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/lich.png",
+    "variant": "standard"
+  },
+  "killer:mastermind": {
+    "path": "catalog/killers/mastermind.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/mastermind.png",
+    "variant": "standard"
+  },
+  "killer:nemesis": {
+    "path": "catalog/killers/nemesis.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nemesis.png",
+    "variant": "standard"
+  },
+  "killer:nightmare": {
+    "path": "catalog/killers/nightmare.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nightmare.png",
+    "variant": "standard"
+  },
+  "killer:nurse": {
+    "path": "catalog/killers/nurse.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/nurse.png",
+    "variant": "standard"
+  },
+  "killer:oni": {
+    "path": "catalog/killers/oni.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/oni.png",
+    "variant": "standard"
+  },
+  "killer:onryo": {
+    "path": "catalog/killers/onryo.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/onryo.png",
+    "variant": "standard"
+  },
+  "killer:pig": {
+    "path": "catalog/killers/pig.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/pig.png",
+    "variant": "standard"
+  },
+  "killer:plague": {
+    "path": "catalog/killers/plague.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/plague.png",
+    "variant": "standard"
+  },
+  "killer:shape": {
+    "path": "catalog/killers/shape.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/shape.png",
+    "variant": "standard"
+  },
+  "killer:singularity": {
+    "path": "catalog/killers/singularity.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/singularity.png",
+    "variant": "standard"
+  },
+  "killer:skull-merchant": {
+    "path": "catalog/killers/skull-merchant.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/skullmerchant.png",
+    "variant": "standard"
+  },
+  "killer:slasher": {
+    "path": "catalog/killers/slasher.webp",
+    "source_url": "https://assets.deadbydaylight.com/DBD_SUSHI_CHAPTER_Character_Page_Jason_CHARACTER_77eb1fa23f.png",
+    "variant": "standard"
+  },
+  "killer:spirit": {
+    "path": "catalog/killers/spirit.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/spirit.png",
+    "variant": "standard"
+  },
+  "killer:trapper": {
+    "path": "catalog/killers/trapper.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/trapper.png",
+    "variant": "standard"
+  },
+  "killer:trickster": {
+    "path": "catalog/killers/trickster.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/trickster.png",
+    "variant": "standard"
+  },
+  "killer:twins": {
+    "path": "catalog/killers/twins.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/twins.png",
+    "variant": "standard"
+  },
+  "killer:unknown": {
+    "path": "catalog/killers/unknown.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/unknown.png",
+    "variant": "standard"
+  },
+  "killer:wraith": {
+    "path": "catalog/killers/wraith.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/wraith.png",
+    "variant": "standard"
+  },
+  "killer:xenomorph": {
+    "path": "catalog/killers/xenomorph.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/characters/killer/xenomorph.png",
+    "variant": "standard"
+  },
+  "perk:nurses": {
+    "path": "catalog/perks/nurses.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/anursescalling.png",
+    "variant": "standard"
+  },
+  "perk:agitation": {
+    "path": "catalog/perks/agitation.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/agitation.png",
+    "variant": "standard"
+  },
+  "perk:alien-instinct": {
+    "path": "catalog/perks/alien-instinct.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/alieninstinct.png",
+    "variant": "standard"
+  },
+  "perk:all-shaking-thunder": {
+    "path": "catalog/perks/all-shaking-thunder.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/allshakingthunder.png",
+    "variant": "standard"
+  },
+  "perk:awakened-awareness": {
+    "path": "catalog/perks/awakened-awareness.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/awakenedawareness.png",
+    "variant": "standard"
+  },
+  "perk:bamboozle": {
+    "path": "catalog/perks/bamboozle.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bamboozle.png",
+    "variant": "standard"
+  },
+  "perk:barbecue-chilli": {
+    "path": "catalog/perks/barbecue-chilli.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/barbecueandchilli.png",
+    "variant": "standard"
+  },
+  "perk:batteries-included": {
+    "path": "catalog/perks/batteries-included.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/batteriesincluded.png",
+    "variant": "standard"
+  },
+  "perk:beast-of-prey": {
+    "path": "catalog/perks/beast-of-prey.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/beastofprey.png",
+    "variant": "standard"
+  },
+  "perk:bitter-murmur": {
+    "path": "catalog/perks/bitter-murmur.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bittermurmur.png",
+    "variant": "standard"
+  },
+  "perk:blood-echo": {
+    "path": "catalog/perks/blood-echo.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodecho.png",
+    "variant": "standard"
+  },
+  "perk:blood-warden": {
+    "path": "catalog/perks/blood-warden.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodwarden.png",
+    "variant": "standard"
+  },
+  "perk:bloodhound": {
+    "path": "catalog/perks/bloodhound.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/bloodhound.png",
+    "variant": "standard"
+  },
+  "perk:brutal": {
+    "path": "catalog/perks/brutal.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/brutalstrength.png",
+    "variant": "standard"
+  },
+  "perk:call-of-brine": {
+    "path": "catalog/perks/call-of-brine.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/callofbrine.png",
+    "variant": "standard"
+  },
+  "perk:celestial-witness": {
+    "path": "catalog/perks/celestial-witness.webp",
+    "source_url": "https://deadbydaylight.com/static/325a85d673c634f38bb530c0ef3afccd/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Celestial_Witness_bda6ef314c.png",
+    "variant": "standard"
+  },
+  "perk:corrupt": {
+    "path": "catalog/perks/corrupt.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/corruptintervention.png",
+    "variant": "standard"
+  },
+  "perk:coulrophobia": {
+    "path": "catalog/perks/coulrophobia.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/coulrophobia.png",
+    "variant": "standard"
+  },
+  "perk:coup-de-grace": {
+    "path": "catalog/perks/coup-de-grace.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/coupdegrace.png",
+    "variant": "standard"
+  },
+  "perk:cruel-limits": {
+    "path": "catalog/perks/cruel-limits.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/cruellimits.png",
+    "variant": "standard"
+  },
+  "perk:cull-the-weak": {
+    "path": "catalog/perks/cull-the-weak.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dyinglight.png",
+    "variant": "standard"
+  },
+  "perk:dark-arrogance": {
+    "path": "catalog/perks/dark-arrogance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darkarrogance.png",
+    "variant": "standard"
+  },
+  "perk:dark-devotion": {
+    "path": "catalog/perks/dark-devotion.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darkdevotion.png",
+    "variant": "standard"
+  },
+  "perk:darkness-revealed": {
+    "path": "catalog/perks/darkness-revealed.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/darknessrevealed.png",
+    "variant": "standard"
+  },
+  "perk:dead-mans-switch": {
+    "path": "catalog/perks/dead-mans-switch.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadmansswitch.png",
+    "variant": "standard"
+  },
+  "perk:deadlock": {
+    "path": "catalog/perks/deadlock.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadlock.png",
+    "variant": "standard"
+  },
+  "perk:deathbound": {
+    "path": "catalog/perks/deathbound.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deathbound.png",
+    "variant": "standard"
+  },
+  "perk:deerstalker": {
+    "path": "catalog/perks/deerstalker.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deerstalker.png",
+    "variant": "standard"
+  },
+  "perk:discordance": {
+    "path": "catalog/perks/discordance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/discordance.png",
+    "variant": "standard"
+  },
+  "perk:dissolution": {
+    "path": "catalog/perks/dissolution.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dissolution.png",
+    "variant": "standard"
+  },
+  "perk:distressing": {
+    "path": "catalog/perks/distressing.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/distressing.png",
+    "variant": "standard"
+  },
+  "perk:dominance": {
+    "path": "catalog/perks/dominance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dominance.png",
+    "variant": "standard"
+  },
+  "perk:dragons-grip": {
+    "path": "catalog/perks/dragons-grip.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dragonsgrip.png",
+    "variant": "standard"
+  },
+  "perk:dying-light": {
+    "path": "catalog/perks/dying-light.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/dyinglight.png",
+    "variant": "standard"
+  },
+  "perk:enduring": {
+    "path": "catalog/perks/enduring.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/enduring.png",
+    "variant": "standard"
+  },
+  "perk:eruption": {
+    "path": "catalog/perks/eruption.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/eruption.png",
+    "variant": "standard"
+  },
+  "perk:fire-up": {
+    "path": "catalog/perks/fire-up.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/fireup.png",
+    "variant": "standard"
+  },
+  "perk:forced-hesitation": {
+    "path": "catalog/perks/forced-hesitation.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/forcedhesitation.png",
+    "variant": "standard"
+  },
+  "perk:forced-penance": {
+    "path": "catalog/perks/forced-penance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/forcedpenance.png",
+    "variant": "standard"
+  },
+  "perk:forever-entwined": {
+    "path": "catalog/perks/forever-entwined.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/foreverentwined.png",
+    "variant": "standard"
+  },
+  "perk:franklins-demise": {
+    "path": "catalog/perks/franklins-demise.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/franklinsdemise.png",
+    "variant": "standard"
+  },
+  "perk:friends-til-the-end": {
+    "path": "catalog/perks/friends-til-the-end.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/friendstiltheend.png",
+    "variant": "standard"
+  },
+  "perk:furtive-chase": {
+    "path": "catalog/perks/furtive-chase.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/furtivechase.png",
+    "variant": "standard"
+  },
+  "perk:game-afoot": {
+    "path": "catalog/perks/game-afoot.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/gameafoot.png",
+    "variant": "standard"
+  },
+  "perk:gearhead": {
+    "path": "catalog/perks/gearhead.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/gearhead.png",
+    "variant": "standard"
+  },
+  "perk:genetic-limits": {
+    "path": "catalog/perks/genetic-limits.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/geneticlimits.png",
+    "variant": "standard"
+  },
+  "perk:grim": {
+    "path": "catalog/perks/grim.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/grimembrace.png",
+    "variant": "standard"
+  },
+  "perk:haywire": {
+    "path": "catalog/perks/haywire.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/haywire.png",
+    "variant": "standard"
+  },
+  "perk:help-wanted": {
+    "path": "catalog/perks/help-wanted.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/helpwanted.png",
+    "variant": "standard"
+  },
+  "perk:hex-blood-favour": {
+    "path": "catalog/perks/hex-blood-favour.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexbloodfavor.png",
+    "variant": "standard"
+  },
+  "perk:hex-crowd-control": {
+    "path": "catalog/perks/hex-crowd-control.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexcrowdcontrol.png",
+    "variant": "standard"
+  },
+  "perk:hex-devour-hope": {
+    "path": "catalog/perks/hex-devour-hope.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexdevourhope.png",
+    "variant": "standard"
+  },
+  "perk:hex-face-the-darkness": {
+    "path": "catalog/perks/hex-face-the-darkness.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexfacethedarkness.png",
+    "variant": "standard"
+  },
+  "perk:hex-fortunes-fool": {
+    "path": "catalog/perks/hex-fortunes-fool.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexplaything.png",
+    "variant": "standard"
+  },
+  "perk:haunted": {
+    "path": "catalog/perks/haunted.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhauntedground.png",
+    "variant": "standard"
+  },
+  "perk:hex-hive-mind": {
+    "path": "catalog/perks/hex-hive-mind.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhivemind.png",
+    "variant": "standard"
+  },
+  "perk:hex-huntress-lullaby": {
+    "path": "catalog/perks/hex-huntress-lullaby.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexhuntresslullaby.png",
+    "variant": "standard"
+  },
+  "perk:hex-no-one-escapes-death": {
+    "path": "catalog/perks/hex-no-one-escapes-death.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexnooneescapesdeath.png",
+    "variant": "standard"
+  },
+  "perk:hex-nothing-but-misery": {
+    "path": "catalog/perks/hex-nothing-but-misery.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexnothingbutmisery.png",
+    "variant": "standard"
+  },
+  "perk:hex-overture-of-doom": {
+    "path": "catalog/perks/hex-overture-of-doom.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexovertureofdoom.png",
+    "variant": "standard"
+  },
+  "perk:pentimento": {
+    "path": "catalog/perks/pentimento.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexpentimento.png",
+    "variant": "standard"
+  },
+  "perk:hex-plaything": {
+    "path": "catalog/perks/hex-plaything.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexplaything.png",
+    "variant": "standard"
+  },
+  "perk:hex-retribution": {
+    "path": "catalog/perks/hex-retribution.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexretribution.png",
+    "variant": "standard"
+  },
+  "perk:hex-ruin": {
+    "path": "catalog/perks/hex-ruin.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexruin.png",
+    "variant": "standard"
+  },
+  "perk:hex-scared-to-death": {
+    "path": "catalog/perks/hex-scared-to-death.webp",
+    "source_url": "https://deadbydaylight.com/static/33d68709c1a215ef0d2d4f94fac5e24f/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Scared_To_Death_e45eeebdbd.png",
+    "variant": "standard"
+  },
+  "perk:hex-the-third-seal": {
+    "path": "catalog/perks/hex-the-third-seal.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexthethirdseal.png",
+    "variant": "standard"
+  },
+  "perk:hex-thrill-of-the-hunt": {
+    "path": "catalog/perks/hex-thrill-of-the-hunt.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexthrillofthehunt.png",
+    "variant": "standard"
+  },
+  "perk:hex-two-can-play": {
+    "path": "catalog/perks/hex-two-can-play.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hextwocanplay.png",
+    "variant": "standard"
+  },
+  "perk:hex-under-your-thumb": {
+    "path": "catalog/perks/hex-under-your-thumb.webp",
+    "source_url": "https://deadbydaylight.com/static/c2f2fa31a9ff2a89092bb6c1fa53074d/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Hex_Under_Your_Thumb_36258ab533.png",
+    "variant": "standard"
+  },
+  "perk:hex-undying": {
+    "path": "catalog/perks/hex-undying.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexundying.png",
+    "variant": "standard"
+  },
+  "perk:hex-wretched-fate": {
+    "path": "catalog/perks/hex-wretched-fate.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hexwretchedfate.png",
+    "variant": "standard"
+  },
+  "perk:hoarder": {
+    "path": "catalog/perks/hoarder.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hoarder.png",
+    "variant": "standard"
+  },
+  "perk:hubris": {
+    "path": "catalog/perks/hubris.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hubris.png",
+    "variant": "standard"
+  },
+  "perk:human-greed": {
+    "path": "catalog/perks/human-greed.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/humangreed.png",
+    "variant": "standard"
+  },
+  "perk:hysteria": {
+    "path": "catalog/perks/hysteria.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/hysteria.png",
+    "variant": "standard"
+  },
+  "perk:im-all-ears": {
+    "path": "catalog/perks/im-all-ears.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/imallears.png",
+    "variant": "standard"
+  },
+  "perk:infectious": {
+    "path": "catalog/perks/infectious.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/infectiousfright.png",
+    "variant": "standard"
+  },
+  "perk:insidious": {
+    "path": "catalog/perks/insidious.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/insidious.png",
+    "variant": "standard"
+  },
+  "perk:iron-grasp": {
+    "path": "catalog/perks/iron-grasp.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/irongrasp.png",
+    "variant": "standard"
+  },
+  "perk:iron-maiden": {
+    "path": "catalog/perks/iron-maiden.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ironmaiden.png",
+    "variant": "standard"
+  },
+  "perk:keep-them-waiting": {
+    "path": "catalog/perks/keep-them-waiting.webp",
+    "source_url": "https://raw.githubusercontent.com/DanteASC4/dbd-assets/b4364f68b27ba9eca92d065fa1fa2c310d72fe41/Perks/NoLicense/iconPerks_saveTheBestForLast.png",
+    "variant": "standard"
+  },
+  "perk:knock-out": {
+    "path": "catalog/perks/knock-out.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/knockout.png",
+    "variant": "standard"
+  },
+  "perk:languid-touch": {
+    "path": "catalog/perks/languid-touch.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/languidtouch.png",
+    "variant": "standard"
+  },
+  "perk:lay-waste": {
+    "path": "catalog/perks/lay-waste.webp",
+    "source_url": "https://deadbydaylight.com/static/379cfa746311c907ffa81b73ec697f38/5cdd8/DBD_UDON_CHAPTER_Perk_Icons_Lay_Waster_0cac837aab.png",
+    "variant": "standard"
+  },
+  "perk:lethal-pursuer": {
+    "path": "catalog/perks/lethal-pursuer.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/lethalpursuer.png",
+    "variant": "standard"
+  },
+  "perk:leverage": {
+    "path": "catalog/perks/leverage.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/leverage.png",
+    "variant": "standard"
+  },
+  "perk:lightborn": {
+    "path": "catalog/perks/lightborn.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/lightborn.png",
+    "variant": "standard"
+  },
+  "perk:machine-learning": {
+    "path": "catalog/perks/machine-learning.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/machinelearning.png",
+    "variant": "standard"
+  },
+  "perk:mad-grit": {
+    "path": "catalog/perks/mad-grit.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/madgrit.png",
+    "variant": "standard"
+  },
+  "perk:make-your-choice": {
+    "path": "catalog/perks/make-your-choice.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/makeyourchoice.png",
+    "variant": "standard"
+  },
+  "perk:merciless-storm": {
+    "path": "catalog/perks/merciless-storm.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/mercilessstorm.png",
+    "variant": "standard"
+  },
+  "perk:mindbreaker": {
+    "path": "catalog/perks/mindbreaker.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/mindbreaker.png",
+    "variant": "standard"
+  },
+  "perk:monitor-abuse": {
+    "path": "catalog/perks/monitor-abuse.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/monitorandabuse.png",
+    "variant": "standard"
+  },
+  "perk:nemesis": {
+    "path": "catalog/perks/nemesis.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nemesis.png",
+    "variant": "standard"
+  },
+  "perk:no-holds-barred": {
+    "path": "catalog/perks/no-holds-barred.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/deadlock.png",
+    "variant": "legacy_equivalent"
+  },
+  "perk:no-quarter": {
+    "path": "catalog/perks/no-quarter.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/noquarter.png",
+    "variant": "standard"
+  },
+  "perk:no-way-out": {
+    "path": "catalog/perks/no-way-out.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nowayout.png",
+    "variant": "standard"
+  },
+  "perk:none-are-free": {
+    "path": "catalog/perks/none-are-free.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nonearefree.png",
+    "variant": "standard"
+  },
+  "perk:nowhere-to-hide": {
+    "path": "catalog/perks/nowhere-to-hide.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/nowheretohide.png",
+    "variant": "standard"
+  },
+  "perk:oppression": {
+    "path": "catalog/perks/oppression.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/oppression.png",
+    "variant": "standard"
+  },
+  "perk:overcharge": {
+    "path": "catalog/perks/overcharge.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/overcharge.png",
+    "variant": "standard"
+  },
+  "perk:overwhelming-presence": {
+    "path": "catalog/perks/overwhelming-presence.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/overwhelmingpresence.png",
+    "variant": "standard"
+  },
+  "perk:phantom-fear": {
+    "path": "catalog/perks/phantom-fear.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/phantomfear.png",
+    "variant": "standard"
+  },
+  "perk:play-with-your-food": {
+    "path": "catalog/perks/play-with-your-food.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/playwithyourfood.png",
+    "variant": "standard"
+  },
+  "perk:pop": {
+    "path": "catalog/perks/pop.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/popgoestheweasel.png",
+    "variant": "standard"
+  },
+  "perk:predator": {
+    "path": "catalog/perks/predator.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/predator.png",
+    "variant": "standard"
+  },
+  "perk:rampage": {
+    "path": "catalog/perks/rampage.webp",
+    "source_url": "https://deadbydaylight.com/static/b0a179f8c7eaae5379cb71aa5213c899/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Rampage_7d2cf083b8.png",
+    "variant": "standard"
+  },
+  "perk:rancor": {
+    "path": "catalog/perks/rancor.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rancor.png",
+    "variant": "standard"
+  },
+  "perk:rapid-brutality": {
+    "path": "catalog/perks/rapid-brutality.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rapidbrutality.png",
+    "variant": "standard"
+  },
+  "perk:ravenous": {
+    "path": "catalog/perks/ravenous.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ravenous.png",
+    "variant": "standard"
+  },
+  "perk:remember-me": {
+    "path": "catalog/perks/remember-me.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/rememberme.png",
+    "variant": "standard"
+  },
+  "perk:save-the-best-for-last": {
+    "path": "catalog/perks/save-the-best-for-last.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/savethebestforlast.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-floods-of-rage": {
+    "path": "catalog/perks/scourge-hook-floods-of-rage.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookfloodsofrage.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-gift-of-pain": {
+    "path": "catalog/perks/scourge-hook-gift-of-pain.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookgiftofpain.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-hangmans-trick": {
+    "path": "catalog/perks/scourge-hook-hangmans-trick.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookhangmanstrick.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-jagged-compass": {
+    "path": "catalog/perks/scourge-hook-jagged-compass.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookjaggedcompass.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-monstrous-shrine": {
+    "path": "catalog/perks/scourge-hook-monstrous-shrine.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookmonstrousshrine.png",
+    "variant": "standard"
+  },
+  "perk:pain-resonance": {
+    "path": "catalog/perks/pain-resonance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookpainresonance.png",
+    "variant": "standard"
+  },
+  "perk:scourge-hook-weeping-wounds": {
+    "path": "catalog/perks/scourge-hook-weeping-wounds.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/scourgehookgiftofpain.png",
+    "variant": "legacy_equivalent"
+  },
+  "perk:secret-project": {
+    "path": "catalog/perks/secret-project.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/secretproject.png",
+    "variant": "standard"
+  },
+  "perk:see-how-they-run": {
+    "path": "catalog/perks/see-how-they-run.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/playwithyourfood.png",
+    "variant": "standard"
+  },
+  "perk:septic-touch": {
+    "path": "catalog/perks/septic-touch.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/septictouch.png",
+    "variant": "standard"
+  },
+  "perk:shadowborn": {
+    "path": "catalog/perks/shadowborn.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/shadowborn.png",
+    "variant": "standard"
+  },
+  "perk:shattered-hope": {
+    "path": "catalog/perks/shattered-hope.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/shatteredhope.png",
+    "variant": "standard"
+  },
+  "perk:silent-shadow": {
+    "path": "catalog/perks/silent-shadow.webp",
+    "source_url": "https://deadbydaylight.com/static/85439980e0059cc9821b15781a0cb6e7/5cdd8/Db_D_SUSHI_CHAPTER_Perk_Icons_Silent_Shadow_46dc4189eb.png",
+    "variant": "standard"
+  },
+  "perk:sloppy-butcher": {
+    "path": "catalog/perks/sloppy-butcher.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/sloppybutcher.png",
+    "variant": "standard"
+  },
+  "perk:spies-from-the-shadows": {
+    "path": "catalog/perks/spies-from-the-shadows.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/spiesfromtheshadows.png",
+    "variant": "standard"
+  },
+  "perk:spirit-fury": {
+    "path": "catalog/perks/spirit-fury.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/spiritfury.png",
+    "variant": "standard"
+  },
+  "perk:starstruck": {
+    "path": "catalog/perks/starstruck.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/starstruck.png",
+    "variant": "standard"
+  },
+  "perk:stridor": {
+    "path": "catalog/perks/stridor.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/stridor.png",
+    "variant": "standard"
+  },
+  "perk:superior-anatomy": {
+    "path": "catalog/perks/superior-anatomy.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/superioranatomy.png",
+    "variant": "standard"
+  },
+  "perk:surge": {
+    "path": "catalog/perks/surge.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/surge.png",
+    "variant": "standard"
+  },
+  "perk:surveillance": {
+    "path": "catalog/perks/surveillance.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/surveillance.png",
+    "variant": "standard"
+  },
+  "perk:thwack": {
+    "path": "catalog/perks/thwack.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thwack.png",
+    "variant": "standard"
+  },
+  "perk:terminus": {
+    "path": "catalog/perks/terminus.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/terminus.png",
+    "variant": "standard"
+  },
+  "perk:territorial-imperative": {
+    "path": "catalog/perks/territorial-imperative.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/territorialimperative.png",
+    "variant": "standard"
+  },
+  "perk:thanatophobia": {
+    "path": "catalog/perks/thanatophobia.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thanatophobia.png",
+    "variant": "standard"
+  },
+  "perk:thrilling-tremors": {
+    "path": "catalog/perks/thrilling-tremors.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/thrillingtremors.png",
+    "variant": "standard"
+  },
+  "perk:tinkerer": {
+    "path": "catalog/perks/tinkerer.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/tinkerer.png",
+    "variant": "standard"
+  },
+  "perk:trail-of-torment": {
+    "path": "catalog/perks/trail-of-torment.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/trailoftorment.png",
+    "variant": "standard"
+  },
+  "perk:turn-back-the-clock": {
+    "path": "catalog/perks/turn-back-the-clock.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/turnbacktheclock.png",
+    "variant": "standard"
+  },
+  "perk:ultimate-weapon": {
+    "path": "catalog/perks/ultimate-weapon.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/ultimateweapon.png",
+    "variant": "standard"
+  },
+  "perk:unbound": {
+    "path": "catalog/perks/unbound.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unbound.png",
+    "variant": "standard"
+  },
+  "perk:undone": {
+    "path": "catalog/perks/undone.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/undone.png",
+    "variant": "standard"
+  },
+  "perk:unforeseen": {
+    "path": "catalog/perks/unforeseen.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unforeseen.png",
+    "variant": "standard"
+  },
+  "perk:unnerving": {
+    "path": "catalog/perks/unnerving.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unnervingpresence.png",
+    "variant": "standard"
+  },
+  "perk:unrelenting": {
+    "path": "catalog/perks/unrelenting.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/unrelenting.png",
+    "variant": "standard"
+  },
+  "perk:wandering-eye": {
+    "path": "catalog/perks/wandering-eye.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/wanderingeye.png",
+    "variant": "standard"
+  },
+  "perk:weave-attunement": {
+    "path": "catalog/perks/weave-attunement.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/weaveattunement.png",
+    "variant": "standard"
+  },
+  "perk:whispers": {
+    "path": "catalog/perks/whispers.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/whispers.png",
+    "variant": "standard"
+  },
+  "perk:zanshin-tactics": {
+    "path": "catalog/perks/zanshin-tactics.webp",
+    "source_url": "https://raw.githubusercontent.com/Zawgalicious/DBDImages/931465172edf01c5277f0ffbc3e32f0ddeadecad/images/perks/killer/zanshintactics.png",
+    "variant": "standard"
+  }
+}

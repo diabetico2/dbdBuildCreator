@@ -6,3 +6,7 @@ node_modules/
 dist/
 target/
 src-tauri/target/
+gen/
+test-results/
+playwright-report/
+*.log

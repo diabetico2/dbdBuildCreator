@@ -1,4 +1,4 @@
-# DBD Build Companion — 0.2.0
+# DBD Build Companion — 0.3.0
 
 Aplicativo desktop pessoal para Windows x64, em Tauri 2, JavaScript e CSS, conectado ao projeto **DBD Build Companion** no Supabase. A entrega aproveita a arquitetura anterior e amplia o catálogo e os fluxos funcionais.
 
@@ -15,6 +15,8 @@ Para confirmar a conta, copie o endereço original do botão recebido por e-mail
 - Início com totais reais da sua coleção, último assassino consultado e favoritas.
 - Coleção com 44 assassinos, pesquisa PT/EN, filtros e prestígios de P0 a P100.
 - Catálogo pesquisável com 151 nomes de perks e 145 efeitos distintos. Cada assassino possui três relações de perks; 19 entradas são gerais. Seis pares de nomes legados representam o mesmo efeito.
+- Retratos e ícones reais incluídos, com créditos e carregamento sob demanda.
+- Seis builds temáticas off-meta, com add-ons, planos de jogo e adaptação de perks.
 - Gerador com quatro efeitos únicos, três sugestões quando há diversidade suficiente e opção padrão de usar somente perks confirmadas.
 - Substituição de uma perk com pesquisa, categoria e classificação pela pontuação da combinação completa.
 - Detalhes, motivos, sinergias e limitações das builds.
@@ -22,13 +24,23 @@ Para confirmar a conta, copie o endereço original do botão recebido por e-mail
 - Menu recolhível, janela inicial de 1200 × 760 e layout compacto até 680 × 520.
 - Persistência de coleção, níveis, ajustes e favoritos no Supabase, com RLS por proprietário.
 
-## Pendência das imagens
+## Imagens reais
 
-**Esta versão não inclui os retratos nem os ícones reais.** Os 195 assets possuem registros individuais e origem catalogada, mas todos estão marcados como `license_pending`. A política da BHVR não concede autorização geral para incorporar conteúdo em aplicativos; a licença de conteúdo de fãs não foi tratada como autorização automática. Conteúdo de franquias externas também exige análise dos respectivos direitos.
+44 retratos e 151 ícones estão incluídos localmente, em aproximadamente 3,5 MB de WebP. O aplicativo carrega as imagens sob demanda e mantém um cache limitado em memória. Não depende de downloads da wiki durante o uso.
 
-O cliente está preparado para carregar imagens autorizadas do Supabase Storage sob demanda, manter cache limitado em memória e registrar falhas. Os espaços indicam a pendência explicitamente; não usam imagens genéricas como se fossem os retratos ou ícones corretos. Consulte **docs/PENDENCIAS.md** e o relatório em Configurações.
+Duas entradas usam a arte identificada do nome legado equivalente: No Holds Barred (Deadlock) e Scourge Hook: Weeping Wounds (Gift of Pain). As fontes individuais, os créditos e os hashes estão em **docs/IMAGENS.md**, `src/asset-manifest.json` e em Configurações → **Ver imagens e créditos**.
 
 25 nomes de perks ainda aparecem em inglês por não haver tradução oficial confirmada no levantamento; The Shape e The Cenobite também permanecem em inglês. Os textos explicativos e a interface estão em português.
+
+## Builds temáticas off-meta
+
+Uma nova página reúne seis variações de arquétipos da comunidade: **Basement Trapper**, **M1 Nurse**, **Speedblitz Clown**, **Backpack Legion**, **Doctor dos testes de perícia** e **Wraith de fim de jogo**. Também há atalhos por assassino no gerador.
+
+Cada receita tem quatro perks, plano de jogo, requisitos, alertas e referências. M1 Nurse exige **Spasmodic Breath**; esta variação de Speedblitz Clown exige **Cheap Gin Bottle**. O aplicativo não registra posse de add-ons. O filtro de disponibilidade verifica somente as quatro perks, usando a coleção e os desbloqueios do assassino da receita.
+
+Receitas podem ser consultadas mesmo quando faltam perks. Ao substituir uma, a build é marcada como adaptada. O plano e os add-ons são sugeridos nas notas ao salvar uma favorita e continuam visíveis ao reabri-la. É preciso possuir o assassino na coleção para salvar.
+
+São receitas editoriais para experimentar estilos, sem ranking de popularidade ou promessa de força competitiva. O modelo numérico não simula add-ons; a pontuação de referência fica em uma seção recolhida.
 
 ## Disponibilidade
 
@@ -52,13 +64,21 @@ O cálculo roda em Web Worker, encerrado após o resultado; até 24 respostas fi
 
 As nove tabelas usam RLS. Clientes autenticados leem o catálogo e os assets; apenas administradores os modificam. Coleção, desbloqueios, preferências e favoritos são privados por `user_id`. Restrições impedem referências inexistentes, prestígio inválido e quatro perks que repitam o mesmo efeito.
 
-A configuração incluída possui somente URL e chave **publishable**. Nenhuma senha, sessão, chave secreta ou `service_role` está no pacote. Auth usa `persistSession:false` e `detectSessionInUrl:false`; consultas usam `cache:'no-store'`. A janela é privada. O app não grava perfis em localStorage, sessionStorage, IndexedDB, SQLite ou arquivos locais.
+O repositório inclui apenas `.env.example`; o `.env` local continua fora do Git. O executável usa somente URL e chave **publishable** do projeto. Nenhuma senha, sessão, chave secreta ou `service_role` está no pacote. Auth usa `persistSession:false` e `detectSessionInUrl:false`; consultas usam `cache:'no-store'`. A janela é privada. O app não grava perfis em localStorage, sessionStorage, IndexedDB, SQLite ou arquivos locais.
 
 O app não lê memória, processos, partidas ou arquivos do DBD e não implementa overlay, automação ou exportação de builds para o jogo. Sua independência técnica não equivale a aprovação oficial da BHVR.
 
 ## Executar o código-fonte
 
-Com Node 22.12 ou posterior, abra a pasta do projeto e execute:
+Com Node 22.12 ou posterior, clone o projeto e prepare a configuração:
+
+```powershell
+git clone https://github.com/diabetico2/dbdBuildCreator.git
+cd dbdBuildCreator
+Copy-Item .env.example .env
+```
+
+Preencha `.env` com `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY` do seu projeto. Nunca coloque uma chave secreta no cliente. Depois execute:
 
 ```powershell
 npm.cmd ci
@@ -78,7 +98,7 @@ A compilação nativa exige Rust, Microsoft C++ Build Tools, Windows SDK e WebVi
 
 ## Atualizar o catálogo
 
-O projeto Supabase atual já foi atualizado. Não execute novamente os scripts de criação nele.
+Esta atualização 0.3 não exige migração do Supabase. Os planos são salvos no campo de notas já existente nas favoritas, e as imagens vêm no aplicativo. O projeto Supabase atual já tem o catálogo da 0.2; não execute novamente os scripts de criação nele.
 
 Para um banco novo, execute `supabase/schema.sql`, depois `supabase/upgrade-v2.sql` e finalmente `supabase/seed.sql`, nessa ordem. Configure a URL e chave pública antes de compilar.
 
@@ -86,7 +106,7 @@ A fonte editorial completa está em `src/catalog-data.json`. `npm.cmd run db:see
 
 O importador `scripts/build-catalog.mjs DIRETORIO` espera `official-characters.json`, `wiki-perks.json` e `wiki-roster.json` coletados de fontes atuais. Os arquivos brutos de terceiros não são distribuídos. O script valida a correspondência de origens e não fixa a quantidade de personagens; novos personagens também precisam de revisão editorial. `scripts/legacy-catalog.mjs` preserva IDs históricos para não quebrar favoritos.
 
-`node scripts/check-assets.mjs` gera o relatório dos assets publicados; `--sources` também verifica os links de origem. A verificação HTTP não é autorização de uso.
+`node scripts/check-assets.mjs` confere as 195 imagens locais por formato, tamanho e SHA-256; `--sources` também verifica os links de origem. A verificação HTTP não é autorização de uso. Consulte `docs/IMAGENS.md` para restaurar imagens com o manifesto.
 
 ## Referências do catálogo
 

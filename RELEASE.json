@@ -1,14 +1,21 @@
 {
-  "version": "0.2.0",
-  "date": "2026-10-15",
+  "version": "0.3.0",
+  "date": "2026-10-16",
   "platform": "Windows x64",
-  "executable_bytes": 3173888,
+  "executable": "windows/DBD-Build-Companion.exe",
+  "executable_version": "0.3.0",
+  "executable_bytes": 6673408,
+  "executable_sha256": "9670a1139ec6428d15dd3abbb125ee2f36abc700d5d82c988fefb97df6f7e9e3",
   "killers": 44,
   "perk_names": 151,
   "distinct_effects": 145,
-  "assets_license_pending": 195,
+  "local_images": 195,
+  "local_image_bytes": 3542254,
+  "legacy_equivalent_images": 2,
+  "themed_builds": 6,
   "tests": {
-    "unit_and_database": 11,
-    "ui": 4
-  }
+    "unit_and_database": 17,
+    "ui": 6
+  },
+  "real_auth_verified": false
 }
