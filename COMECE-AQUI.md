@@ -1,17 +1,17 @@
-# Comece aqui — DBD Build Companion 0.2.0
+# Comece aqui — DBD Build Companion 0.4.0
 
-1. Extraia o ZIP inteiro.
-2. Abra `windows/DBD-Build-Companion.exe`.
-3. Entre ou crie uma conta. Use o e-mail associado à sua organização Supabase enquanto o projeto utilizar o envio padrão de e-mails.
-4. Se for solicitado, copie o endereço original do botão de confirmação do e-mail e cole no aplicativo. Se recebeu um código, digite-o. Se já confirmou por fora, volte para Entrar.
-5. Em **Minha coleção**, pesquise seus assassinos, abra cada card, marque **Possuo este assassino**, informe o prestígio e salve.
-6. Em **Catálogo de perks**, selecione o assassino e confirme as vantagens gerais ou melhorias individuais obtidas na Teia de Sangue e no Santuário.
-7. Abra **Gerador de builds**. Escolha o estilo, confira a estratégia, substitua perks se quiser e salve a favorita com nome e notas.
+1. Use o instalador **DBD Build Companion_0.4.0_x64-setup.exe** da nova release. O executável em `windows/` continua sendo 0.3.0 e não inclui estas melhorias.
+2. Entre na sua conta. Depois disso, pode fechar e reabrir o aplicativo sem digitar a senha novamente. Use **Configurações → Sair da conta** para remover o acesso deste dispositivo.
+3. Em **Minha coleção → Selecionar vários**, marque os killers, use **Selecionar todos** ou **Limpar seleção** e clique em **Marcar como adquirido**. Os novos entram em P0; os anteriores preservam o prestígio. Clique no card para editar individualmente.
+4. Em **Catálogo de perks**, escolha um killer adquirido e use **Selecionar vários**. Escolha o nível mínimo e marque as perks adquiridas. A alteração vale somente para esse killer; níveis superiores são preservados.
+5. **Desmarcar** uma perk a torna indisponível. **Voltar ao automático** recupera as regras de prestígio. Desmarcar killers pede confirmação porque remove seus desbloqueios manuais e favoritos.
+6. **Selecionar todos** inclui os resultados filtrados ainda não exibidos. Mudar busca, filtros, página ou killer limpa a seleção.
+7. Abra o gerador ou as builds temáticas para montar a combinação e salvar favoritas.
 
-O catálogo inclui 44 assassinos e 151 nomes de perks. Os retratos e ícones reais estão pendentes de autorização de uso e ainda não aparecem nesta entrega. A relação completa está em Configurações → Ver relatório de pendências.
+Os 44 retratos e 151 ícones locais estão incluídos. Créditos em Configurações → Ver imagens e créditos.
 
-**Explorar catálogo** permite testar tudo sem conta, com coleção vazia. Alterações nesse modo são temporárias. Para salvar entre sessões, entre na conta. A sessão não fica gravada ao fechar: faça login novamente para recuperar seus dados.
+**Explorar catálogo** continua sem conta e com alterações temporárias. A atualização não recupera uma sessão antiga que foi aberta em modo anônimo: entre uma vez na nova versão.
 
-O aplicativo já contém a configuração pública do Supabase. Não é necessário executar SQL nem instalar Node ou Rust para usar o executável. Nenhum recurso pago foi contratado.
+Para confirmar e-mail, copie o link original do botão de confirmação ou digite o código no aplicativo. Não é necessário executar SQL no Supabase existente. O instalador incorpora somente sua configuração pública do Supabase; não exige Node.js ou Rust no computador de uso.
 
-O login real, a entrega dos e-mails e o recebimento dos seus dados devem ser conferidos no primeiro uso; os testes desta entrega incluíram banco real e cliente com API simulada. Detalhes em `VALIDACAO.md`.
+Os testes automatizados de autenticação usam API simulada. Confira o roteiro de login real no Windows em [docs/RELEASE-0.4.0.md](docs/RELEASE-0.4.0.md).

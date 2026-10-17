@@ -1,21 +1,21 @@
-# DBD Build Companion — 0.2.0
+# DBD Build Companion — 0.4.0
 
 Aplicativo desktop pessoal para Windows x64, em Tauri 2, JavaScript e CSS, conectado ao projeto **DBD Build Companion** no Supabase. A entrega aproveita a arquitetura anterior e amplia o catálogo e os fluxos funcionais.
 
 ## Abrir
 
-Este repositório contém o código-fonte da versão 0.2.0. Para executar a partir do Git, siga **Executar o código-fonte** abaixo. As instruções do executável se aplicam ao pacote Windows entregue separadamente.
+O código-fonte está na versão 0.4.0. Use o instalador **DBD Build Companion_0.4.0_x64-setup.exe** gerado pelo GitHub Actions para esta versão, disponível na release quando aprovada. A compilação depende das variáveis públicas do Supabase já configuradas no repositório. O executável avulso em `windows/` e seu `RELEASE.json` continuam sendo o pacote histórico 0.3.0, sem estas melhorias; não os redistribua como 0.4.0.
 
-Extraia o ZIP inteiro e abra **windows/DBD-Build-Companion.exe**. Não é necessário instalar Node.js ou Rust para usar o executável. Ele depende do Microsoft Edge WebView2 Runtime. O executável pessoal não possui assinatura digital.
+O instalador exige Windows x64 e WebView2. Node.js e Rust só são necessários para desenvolver/compilar. O aplicativo não possui assinatura digital.
 
-Entre ou crie sua conta para salvar os dados. A sessão termina ao fechar o aplicativo. **Explorar catálogo** abre um modo visitante com coleção vazia: você pode experimentar os controles, mas as alterações desaparecem ao sair.
+Entre para salvar a coleção na nuvem. A sessão permanece neste dispositivo após fechar e reabrir; **Configurações → Sair da conta** remove a sessão local. O modo **Explorar catálogo** continua temporário.
 
 Para confirmar a conta, copie o endereço original do botão recebido por e-mail e cole no aplicativo, ou digite o código quando o template enviar um. Não abra o link antes de copiá-lo, pois o token é de uso único. Consulte `COMECE-AQUI.md`.
 
 ## O que funciona
 
 - Início com totais reais da sua coleção, último assassino consultado e favoritas.
-- Coleção com 44 assassinos, pesquisa PT/EN, filtros e prestígios de P0 a P100.
+- Coleção com 44 assassinos, pesquisa PT/EN, filtros e prestígios de P0 a P100. **Selecionar vários** permite marcar ou desmarcar em lote; novos killers entram em P0 e os existentes mantêm o prestígio.
 - Catálogo pesquisável com 151 nomes de perks e 145 efeitos distintos. Cada assassino possui três relações de perks; 19 entradas são gerais. Seis pares de nomes legados representam o mesmo efeito.
 - Gerador com quatro efeitos únicos, três sugestões quando há diversidade suficiente e opção padrão de usar somente perks confirmadas.
 - Substituição de uma perk com pesquisa, categoria e classificação pela pontuação da combinação completa.
@@ -24,17 +24,19 @@ Para confirmar a conta, copie o endereço original do botão recebido por e-mail
 - Menu recolhível, janela inicial de 1200 × 760 e layout compacto até 680 × 520.
 - Persistência de coleção, níveis, ajustes e favoritos no Supabase, com RLS por proprietário.
 
-## Pendência das imagens
+## Imagens incluídas
 
-**Esta versão não inclui os retratos nem os ícones reais.** Os 195 assets possuem registros individuais e origem catalogada, mas todos estão marcados como `license_pending`. A política da BHVR não concede autorização geral para incorporar conteúdo em aplicativos; a licença de conteúdo de fãs não foi tratada como autorização automática. Conteúdo de franquias externas também exige análise dos respectivos direitos.
-
-O cliente está preparado para carregar imagens autorizadas do Supabase Storage sob demanda, manter cache limitado em memória e registrar falhas. Os espaços indicam a pendência explicitamente; não usam imagens genéricas como se fossem os retratos ou ícones corretos. Consulte **docs/PENDENCIAS.md** e o relatório em Configurações.
+Os 44 retratos e 151 ícones locais são preservados, inclusive quando o Supabase mantém registros antigos de assets. A validação confere hashes e decodifica todas as 195 imagens. Créditos e fontes permanecem em Configurações e em `docs/IMAGENS.md`.
 
 25 nomes de perks ainda aparecem em inglês por não haver tradução oficial confirmada no levantamento; The Shape e The Cenobite também permanecem em inglês. Os textos explicativos e a interface estão em português.
 
 ## Disponibilidade
 
 P0 permite as perks pessoais no próprio assassino, inicialmente no nível I. P1, P2 e P3 compartilham os níveis I, II e III. Prestígios superiores não aumentam o nível das perks além de III.
+
+No **Catálogo de perks**, escolha o assassino adquirido e use **Selecionar vários**. Marcar aplica o nível mínimo escolhido, preservando níveis superiores disponíveis. **Desmarcar** registra nível 0, inclusive sobre disponibilidade herdada. **Voltar ao automático** remove apenas os registros manuais selecionados daquele assassino. Selecionar todos inclui resultados filtrados ainda não exibidos; mudar filtro, busca, página ou assassino limpa a seleção.
+
+Desmarcar killers pede confirmação: pelo modelo existente do banco, remove também os desbloqueios manuais e favoritos vinculados a esses killers. O app exibe os efeitos antes de confirmar.
 
 O registro individual de uma perk para o assassino selecionado tem precedência: Automático, Indisponível ou nível I/II/III. Perks gerais não são presumidas desbloqueadas; confirme as obtidas na Teia de Sangue ou no Santuário. Com menos de quatro efeitos disponíveis, o app informa o que falta.
 
@@ -54,7 +56,7 @@ O cálculo roda em Web Worker, encerrado após o resultado; até 24 respostas fi
 
 As nove tabelas usam RLS. Clientes autenticados leem o catálogo e os assets; apenas administradores os modificam. Coleção, desbloqueios, preferências e favoritos são privados por `user_id`. Restrições impedem referências inexistentes, prestígio inválido e quatro perks que repitam o mesmo efeito.
 
-O repositório inclui apenas `.env.example`, com valores de exemplo. O arquivo `.env` local não é versionado e deve conter somente URL e chave **publishable**; nunca use uma chave secreta ou `service_role` no cliente. Auth usa `persistSession:false` e `detectSessionInUrl:false`; consultas usam `cache:'no-store'`. A janela é privada. O app não grava perfis em localStorage, sessionStorage, IndexedDB, SQLite ou arquivos locais.
+O repositório inclui apenas `.env.example`, com valores de exemplo. O arquivo `.env` local não é versionado e deve conter somente URL e chave **publishable**; nunca use uma chave secreta ou `service_role` no cliente. Auth usa `persistSession:true`, `autoRefreshToken:true` e `detectSessionInUrl:false`. A sessão (tokens e identidade retornada pelo Auth, nunca a senha) fica no localStorage do perfil persistente do WebView2. Não há cópia local da coleção ou dos favoritos. O identificador do aplicativo e a origem são mantidos entre versões. A CSP de produção continua sem scripts remotos, `unsafe-inline`, `unsafe-eval` ou novas permissões Tauri. Consulte `docs/RELEASE-0.4.0.md` para detalhes e limites de privacidade.
 
 O app não lê memória, processos, partidas ou arquivos do DBD e não implementa overlay, automação ou exportação de builds para o jogo. Sua independência técnica não equivale a aprovação oficial da BHVR.
 
@@ -84,7 +86,7 @@ npm.cmd run build
 npm.cmd run tauri -- build --no-bundle
 ```
 
-A compilação nativa exige Rust, Microsoft C++ Build Tools, Windows SDK e WebView2. `tauri build --no-bundle` gera o executável direto; o comando sem essa opção tenta gerar o instalador NSIS. Esta entrega inclui o executável, sem instalador.
+A compilação nativa exige Rust, Microsoft C++ Build Tools, Windows SDK e WebView2. `tauri build --no-bundle` gera o executável direto; o comando sem essa opção tenta gerar o instalador NSIS. O workflow de release compila um instalador NSIS novo e cria apenas um rascunho.
 
 ## Atualizar o catálogo
 

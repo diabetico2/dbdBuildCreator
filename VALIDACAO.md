@@ -1,20 +1,35 @@
-# Validação — versão 0.2.0
+# Validação — versão 0.4.0
 
-Verificado em 15/10/2026.
+Verificado em 16/10/2026, a partir do commit-base `a9a03a1` (correção dos retratos).
 
-- 11 testes de lógica, catálogo, confirmação por e-mail e banco PostgreSQL/PGlite aprovados. Cobrem 44 assassinos, 151 nomes, 145 efeitos, três perks por origem, 19 gerais, vínculos de assets, prestígio até P100, precedência de desbloqueios, pares legados, alternativas diversas e equivalência da busca exaustiva em um conjunto pequeno.
-- 4 testes de interface aprovados no Chrome com os arquivos compilados. Cobrem coleção vazia no modo visitante, pesquisa PT/EN, filtros, carregamento progressivo, desbloqueios, substituição, criação/edição/reabertura/exclusão de favoritas, persistência após novo login com API simulada, confirmação restrita ao projeto correto e ausência de localStorage/sessionStorage.
-- Todas as seis telas verificadas em 680 × 520 sem transbordamento horizontal. Gerador também verificado no tamanho de desenvolvimento. Layout revisado em capturas internas.
-- Catálogo aplicado ao Supabase real: 44 assassinos, 151 perks, 21 sinergias editoriais e 195 registros de imagens. Todas as imagens estão em `license_pending`; zero arquivos de imagem publicados.
-- Teste SQL remoto em transação revertida confirmou isolamento de usuários, proteção contra troca de proprietário, proteção do catálogo, rejeição de perks repetidas e rejeição de nomes diferentes com efeito equivalente. Consulta posterior confirmou zero coleções e favoritas de teste. As nove tabelas estão com RLS.
-- Security Advisor: aviso de proteção contra senhas vazadas desabilitada no Auth. Não foram ativados serviços ou planos pagos. Orientação: https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection
-- Build de produção do Vite concluído. JavaScript principal aproximadamente 465 kB antes de compressão, worker aproximadamente 4 kB e CSS aproximadamente 21 kB.
-- Executável Windows x64 em release compilado com Tauri 2.12.3 e Rust 1.99.0. O tamanho do executável é registrado em `SHA256SUMS.txt` e no pacote.
+- **22 testes de lógica/banco aprovados**: catálogo, recomendação, regras de propriedade, P0–P100, lotes, manutenção dos níveis, parâmetros PostgREST, RLS entre usuários, cascata e rollback de lote inválido em PostgreSQL/PGlite local.
+- **13 testes de interface aprovados sobre build de produção**: coleção/perks em massa, checkboxes, filtros, seleção de páginas não exibidas, tratamento de falha de gravação, níveis separados por killer, edição individual, favoritas, imagens e layout de 680 × 520.
+- **Sessão**: API simulada com SDK real, restauração após reiniciar o processo Edge com perfil persistente, refresh de token vencido, refresh revogado, logout, falha de logout remoto com remoção local e recuperação após erro de leitura. Nenhuma senha persistida pelo app.
+- **195 imagens locais** verificadas por hash (44 retratos e 151 ícones), zero arquivos quebrados, 3.542.254 bytes. Teste de navegador decodifica todas as imagens do build.
+- **Build Vite aprovado**, com aviso de tamanho do JavaScript principal acima de 500 kB. Conferência de versões npm/Cargo/Tauri aprovada.
+- **CSP preservada**: scripts locais, sem unsafe-inline/unsafe-eval em produção e sem novas permissões Tauri.
+- **Compilação Tauri local indisponível**: Cargo/Rust não instalado. O workflow Windows gera um instalador novo do commit e cria rascunho de release; o resultado deve ser conferido no Actions.
 
 ## Limites
 
-Os testes de interface de login e restauração usam API simulada. O teste remoto confirma o banco e suas políticas, não entrega de e-mails, SMTP ou login real. Nenhum e-mail de teste foi enviado. O ambiente de compilação não resolveu os domínios externos diretamente; o conector acessou o Supabase.
+Não houve autenticação em uma conta real nem teste interativo do aplicativo Tauri/WebView2 instalado. Persistência entre processos Edge é evidência do funcionamento do armazenamento web e do SDK, não certificação do instalador. Siga o roteiro de fechamento/reabertura e expiração em [docs/RELEASE-0.4.0.md](docs/RELEASE-0.4.0.md).
 
-Não houve teste interativo do WebView2 nativo nem medição de RAM/CPU com DBD aberto. Tamanho de bundle ou executável não equivale a consumo de memória. A qualidade competitiva dos pesos não foi validada por partidas reais.
+Não foram executadas migrações, alterações de configurações ou gravações de teste no Supabase remoto. Nenhum e-mail foi enviado ou serviço pago contratado. Não houve medição de desempenho com DBD aberto nem validação competitiva por partidas reais.
 
-O catálogo tem cobertura de nomes e relações da referência consultada; efeitos são resumos editoriais, sem todos os números por nível. 25 traduções de nomes de perks e os nomes PT de The Shape/The Cenobite ainda não foram confirmados. As imagens reais permanecem pendentes de autorização específica; consulte `docs/PENDENCIAS.md`.
+O executável versionado em `windows/`, `RELEASE.json` e `SHA256SUMS.txt` ainda correspondem à versão histórica 0.3.0. Não são artefatos da versão 0.4.0.
+
+## Reproduzir
+
+```powershell
+npm ci
+npm test
+node scripts/check-release.mjs
+node scripts/check-assets.mjs
+$env:VITE_SUPABASE_URL='https://dbc-test.supabase.co'
+$env:VITE_SUPABASE_PUBLISHABLE_KEY='sb_publishable_test_fixture'
+npm run build
+$env:DBC_STATIC_TEST='1'
+npm run test:ui
+```
+
+Os testes usam Edge instalado, perfis temporários exclusivos e endpoints interceptados. Para compilar o aplicativo de uso, utilize as variáveis públicas reais do Supabase e a toolchain Rust/C++/Windows SDK, ou o workflow de release. Não distribua um build com as variáveis fictícias de teste.

@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: windows-release
+  cancel-in-progress: false
+
 jobs:
   build-windows:
     runs-on: windows-latest
@@ -26,6 +30,22 @@ jobs:
       - name: Configurar Rust
         uses: dtolnay/rust-toolchain@stable
 
+      - name: Validar versão e configuração pública da release
+        run: node scripts/check-release.mjs --production
+        env:
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
+
+      - name: Impedir substituição ou duplicação de uma release existente
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const version = require('./package.json').version;
+            const releases = await github.paginate(github.rest.repos.listReleases, context.repo);
+            if (releases.some(release => release.tag_name === `v${version}`)) {
+              core.setFailed(`A versão v${version} já tem release ou rascunho. Prepare uma nova versão.`);
+            }
+
       - name: Instalar dependencias
         run: npm ci
 
@@ -38,6 +58,7 @@ jobs:
       - name: Testar interface e imagens empacotadas
         run: |
           npm run build
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           npm run test:ui
         env:
           DBC_STATIC_TEST: '1'
@@ -52,8 +73,10 @@ jobs:
           VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
         with:
           tagName: v__VERSION__
+          releaseCommitish: ${{ github.sha }}
           releaseName: DBD Build Companion v__VERSION__
-          releaseBody: 'Baixe o instalador do Windows em Assets.'
+          releaseBody: 'Seleção em massa de killers e perks e login persistente. Instalador compilado deste commit; consulte docs/RELEASE-0.4.0.md para validação e teste de login no Windows.'
+          args: -- --locked
           releaseDraft: true
           prerelease: false
           uploadUpdaterJson: false

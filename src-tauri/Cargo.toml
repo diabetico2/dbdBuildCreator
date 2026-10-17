@@ -1,6 +1,6 @@
 [package]
 name = "dbd-build-companion"
-version = "0.3.1"
+version = "0.4.0"
 description = "Companheiro independente de builds de DBD"
 edition = "2021"
 

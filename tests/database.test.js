@@ -47,6 +47,17 @@ test('Postgres em memória: schema, restrições e isolamento RLS entre dois usu
   await db.exec("insert into public.dbc_preferences(style) values ('control')");
   await asUser(alice);
   assert.equal((await db.query('select prestige from public.dbc_collection')).rows[0].prestige,1);
+  // The bulk client uses one statement: duplicate acquisitions must not reset prestige.
+  await db.exec("insert into public.dbc_collection(killer_id,prestige) values ('legion',0),('nurse',0),('hillbilly',0) on conflict(user_id,killer_id) do nothing");
+  assert.equal((await db.query("select prestige from public.dbc_collection where killer_id='legion'")).rows[0].prestige,1);
+  await db.exec("insert into public.dbc_perk_unlocks(killer_id,perk_id,tier) values ('nurse','enduring',2),('nurse','corrupt',2) on conflict(user_id,killer_id,perk_id) do update set tier=excluded.tier");
+  await assert.rejects(db.exec("insert into public.dbc_perk_unlocks(killer_id,perk_id,tier) values ('nurse','brutal',1),('nurse','missing',1)"));
+  assert.equal((await db.query("select * from public.dbc_perk_unlocks where killer_id='nurse' and perk_id='brutal'")).rows.length,0);
+  await db.exec("delete from public.dbc_collection where user_id=auth.uid() and killer_id in ('nurse','hillbilly')");
+  assert.equal((await db.query("select * from public.dbc_perk_unlocks where killer_id='nurse'")).rows.length,0);
+  await asUser(bob);
+  assert.equal((await db.query("select * from public.dbc_collection where killer_id='legion'")).rows.length,1);
+  await asUser(alice);
   await db.exec("update public.dbc_collection set prestige=2 where killer_id='legion'");
   assert.equal((await db.query('select prestige from public.dbc_collection')).rows[0].prestige,2);
   await db.exec("delete from public.dbc_collection where killer_id='legion'");

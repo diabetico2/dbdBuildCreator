@@ -64,7 +64,7 @@ test('integração do cliente restaura coleção e favoritos ao entrar novamente
  });
  const login=async()=>{await page.getByLabel('E-mail',{exact:true}).fill('test@example.com');await page.getByLabel('Senha',{exact:true}).fill('test-password');await page.getByRole('button',{name:'Entrar',exact:true}).click();await expect(page.locator('.stats')).toBeVisible();};
  await page.goto('/');await login();await add(page,'legion',3);await add(page,'hillbilly',1);await nav(page,'build');await expect(page.locator('.perk-card')).toHaveCount(4);await page.getByRole('button',{name:'Salvar favorita',exact:true}).click();await page.getByLabel('Nome da build').fill('Favorita persistida');await page.locator('#favorite-form button').click();await expect(page.locator('#notice')).toContainText('salva na nuvem');expect(tables.dbc_favorites).toHaveLength(1);
- await page.reload();await login();await expect(page.locator('.stats article').first()).toContainText('2 / 44');await nav(page,'favorites');await expect(page.locator('.favorite-card')).toContainText('Favorita persistida');expect(await page.evaluate(()=>localStorage.length+sessionStorage.length)).toBe(0);
+ await page.reload();await expect(page.locator('.stats')).toBeVisible();await expect(page.locator('.stats article').first()).toContainText('2 / 44');await nav(page,'favorites');await expect(page.locator('.favorite-card')).toContainText('Favorita persistida');expect(await page.evaluate(()=>localStorage.length)).toBe(1);
 });
 
 

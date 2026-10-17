@@ -13,7 +13,8 @@ import {
   scoreBuild,
   family,
 } from "./recommender.js";
-import { createCloud, loadCloud, upsert, remove } from "./cloud.js";
+import { createCloud, loadCloud, upsert, remove, acquireKillers, savePerkUnlocks, removeKillers, resetPerkUnlocks } from "./cloud.js";
+import { newKillers, perkUnlocks } from "./bulk.js";
 import { emailVerification } from "./email-verification.js";
 import { icon } from "./icons.js";
 import {
@@ -54,6 +55,10 @@ const initialPreferences = () => ({
   sidebar_collapsed: false,
 });
 let state = {
+  restoring: !!cloud,
+  dataReady: false,
+  selection: null,
+  bulkTier: 1,
   user: null,
   demo: false,
   route: "home",
@@ -151,6 +156,9 @@ function reset() {
   clearAssets();
   state = {
     ...state,
+    restoring: false,
+    dataReady: false,
+    selection: null,
     user: null,
     demo: false,
     catalog: seedCatalog,
@@ -168,6 +176,8 @@ function reset() {
   };
 }
 function errorText(e) {
+  if (["refresh_token_not_found", "refresh_token_already_used", "session_not_found"].includes(e?.code))
+    return "Sua sessão expirou. Entre novamente para acessar sua coleção.";
   if (e?.code === "email_address_not_authorized")
     return "O envio padrão do Supabase atende membros da organização. Use o e-mail da conta Supabase ou configure um SMTP próprio.";
   if (e?.code === "over_email_send_rate_limit")
@@ -206,6 +216,7 @@ async function hydrate() {
   state = {
     ...state,
     ...data,
+    dataReady: true,
     preferences: { ...initialPreferences(), ...data.preferences },
   };
   ensureSelected();
@@ -232,11 +243,14 @@ async function savePreferences(next) {
     state.rotation = 0;
     invalidate();
   }
-  if ("selected_killer" in next) state.lastConsulted = next.selected_killer;
+  if ("selected_killer" in next) {
+    state.selection = null;
+    state.lastConsulted = next.selected_killer;
+  }
 }
 function authView() {
   const mode = state.authMode;
-  return `<main class="auth"><div class="auth-art"><div class="brand-mark">/ / /</div><span class="eyebrow">SEU PRÓXIMO LOADOUT</span><h1>Entre na Névoa.<br><span>Com um plano.</span></h1><p>Suas vantagens. Seu estilo.<br>Quatro escolhas que fazem sentido.</p><div class="auth-diamonds"><i>◇</i><i>◇</i><i>◇</i><i>◇</i></div><small>Companheiro independente de builds de Dead by Daylight</small></div><section class="auth-panel"><span class="eyebrow">DBD BUILD COMPANION <b>0.3.0</b></span><h2>${{ login: "Sua coleção começa aqui", register: "Criar sua conta", confirm: "Confirmar e-mail", recover: "Recuperar acesso", reset: "Definir nova senha" }[mode]}</h2><p>Seu progresso fica na nuvem. Sua sessão termina ao fechar o aplicativo.</p>${!cloud ? `<div class="banner warning">${escape(configurationError || "A conexão com o Supabase ainda não foi configurada. O modo de demonstração permite conhecer o aplicativo.")}</div>` : ""}<form id="auth-form"><label>E-mail<input name="email" type="email" autocomplete="email" required maxlength="254"></label>${["login", "register", "reset"].includes(mode) ? `<label>Senha<input name="password" type="password" autocomplete="${mode === "login" ? "current-password" : "new-password"}" minlength="${mode === "login" ? 1 : 10}" maxlength="128" required></label>` : ""}${["confirm", "reset"].includes(mode) ? '<label>Link ou código recebido por e-mail<input name="token" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" required maxlength="4096"></label><small class="muted">No e-mail, clique com o botão direito no botão de confirmação e escolha “Copiar endereço do link”. Cole aqui, sem abrir o link. Se recebeu um código, digite-o.</small>' : ""}<button class="primary full" ${!cloud ? "disabled" : ""}>${{ login: "Entrar", register: "Criar conta", confirm: "Confirmar e-mail", recover: "Enviar e-mail de recuperação", reset: "Confirmar e trocar senha" }[mode]}</button></form><div class="auth-links">${mode === "login" ? '<button data-auth="register">Criar conta</button><button data-auth="recover">Esqueci minha senha</button>' : '<button data-auth="login">Voltar para entrar</button>'}${["login", "register"].includes(mode) ? '<button data-auth="confirm">Já recebi a confirmação</button>' : ""}${mode === "recover" ? '<button data-auth="reset">Já recebi a recuperação</button>' : ""}</div><div class="divider">ou conheça primeiro</div><button class="secondary full" data-action="demo">Explorar catálogo →</button><small class="muted">Modo visitante: comece com a coleção vazia. Entre para salvar.</small></section></main>`;
+  return `<main class="auth"><div class="auth-art"><div class="brand-mark">/ / /</div><span class="eyebrow">SEU PRÓXIMO LOADOUT</span><h1>Entre na Névoa.<br><span>Com um plano.</span></h1><p>Suas vantagens. Seu estilo.<br>Quatro escolhas que fazem sentido.</p><div class="auth-diamonds"><i>◇</i><i>◇</i><i>◇</i><i>◇</i></div><small>Companheiro independente de builds de Dead by Daylight</small></div><section class="auth-panel"><span class="eyebrow">DBD BUILD COMPANION <b>0.4.0</b></span><h2>${{ login: "Sua coleção começa aqui", register: "Criar sua conta", confirm: "Confirmar e-mail", recover: "Recuperar acesso", reset: "Definir nova senha" }[mode]}</h2><p>Seu progresso fica na nuvem. Você permanece conectado neste dispositivo até sair da conta.</p>${!cloud ? `<div class="banner warning">${escape(configurationError || "A conexão com o Supabase ainda não foi configurada. O modo de demonstração permite conhecer o aplicativo.")}</div>` : ""}<form id="auth-form"><label>E-mail<input name="email" type="email" autocomplete="email" required maxlength="254"></label>${["login", "register", "reset"].includes(mode) ? `<label>Senha<input name="password" type="password" autocomplete="${mode === "login" ? "current-password" : "new-password"}" minlength="${mode === "login" ? 1 : 10}" maxlength="128" required></label>` : ""}${["confirm", "reset"].includes(mode) ? '<label>Link ou código recebido por e-mail<input name="token" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" required maxlength="4096"></label><small class="muted">No e-mail, clique com o botão direito no botão de confirmação e escolha “Copiar endereço do link”. Cole aqui, sem abrir o link. Se recebeu um código, digite-o.</small>' : ""}<button class="primary full" ${!cloud ? "disabled" : ""}>${{ login: "Entrar", register: "Criar conta", confirm: "Confirmar e-mail", recover: "Enviar e-mail de recuperação", reset: "Confirmar e trocar senha" }[mode]}</button></form><div class="auth-links">${mode === "login" ? '<button data-auth="register">Criar conta</button><button data-auth="recover">Esqueci minha senha</button>' : '<button data-auth="login">Voltar para entrar</button>'}${["login", "register"].includes(mode) ? '<button data-auth="confirm">Já recebi a confirmação</button>' : ""}${mode === "recover" ? '<button data-auth="reset">Já recebi a recuperação</button>' : ""}</div><div class="divider">ou conheça primeiro</div><button class="secondary full" data-action="demo">Explorar catálogo →</button><small class="muted">Modo visitante: comece com a coleção vazia. Entre para salvar.</small></section></main>`;
 }
 const nav = {
   home: ["house", "Início"],
@@ -262,6 +276,14 @@ function title(text, subtitle, extra = "") {
 }
 function render() {
   document.body.classList.toggle("compact", state.preferences.compact);
+  if (state.restoring) {
+    app.innerHTML = empty("Restaurando sua sessão…", "Conectando à sua conta.");
+    return;
+  }
+  if (state.user && !state.dataReady) {
+    app.innerHTML = empty("Sua conta está conectada", "Não foi possível carregar seus dados. Verifique a conexão e tente novamente.", '<button class="primary" data-action="sync">Tentar novamente</button><button class="secondary" data-action="logout">Sair da conta</button>');
+    return;
+  }
   if (!state.user && !state.demo) {
     app.innerHTML = authView();
     return;
@@ -275,7 +297,7 @@ function render() {
     )
     .join(
       "",
-    )}</nav><div class="sidebar-foot"><span class="version">DBD COMPANION · 0.3</span><button data-action="collapse" title="Recolher ou expandir menu" aria-label="Recolher ou expandir menu">${icon("panel-left-close")}<span>Recolher menu</span></button></div></aside><div class="workspace"><header><div class="header-brand">DBD Build Companion</div><label class="searchbox">${icon("search")}<input id="context-search" type="search" aria-label="Pesquisar nesta página" placeholder="Pesquisar ${state.route === "collection" ? "assassino" : state.route === "perks" ? "vantagem" : "nesta página"}…" value="${escape(state.search)}"></label><span class="sync ${!navigator.onLine ? "offline" : ""}"><i></i>${state.demo ? "Visitante" : navigator.onLine ? "Supabase conectado" : "Sem conexão"}<small>${state.demo ? "Alterações temporárias" : state.syncError ? "Sincronização pendente" : navigator.onLine ? "Dados sincronizados" : "Dados em memória"}</small></span><button data-action="sync" aria-label="Sincronizar dados" title="Sincronizar dados" ${state.demo ? "disabled" : ""}>${icon("refresh-cw")}</button><button data-action="profile" aria-label="Abrir perfil" title="Perfil">${icon("user")}</button></header>${state.demo ? '<div class="session-strip">MODO VISITANTE · Coleção vazia por padrão. Entre na sua conta para salvar as alterações.</div>' : ""}${!navigator.onLine ? '<div class="banner warning">Sem internet. Consultas já carregadas continuam disponíveis; salvamentos exigem conexão.</div>' : ""}<main id="content"></main><footer>Projeto pessoal independente · Sem afiliação à Behaviour Interactive<span>Catálogo ${escape(state.catalog.config.reviewed_at)}</span></footer></div></div>`;
+    )}</nav><div class="sidebar-foot"><span class="version">DBD COMPANION · 0.4.0</span><button data-action="collapse" title="Recolher ou expandir menu" aria-label="Recolher ou expandir menu">${icon("panel-left-close")}<span>Recolher menu</span></button></div></aside><div class="workspace"><header><div class="header-brand">DBD Build Companion</div><label class="searchbox">${icon("search")}<input id="context-search" type="search" aria-label="Pesquisar nesta página" placeholder="Pesquisar ${state.route === "collection" ? "assassino" : state.route === "perks" ? "vantagem" : "nesta página"}…" value="${escape(state.search)}"></label><span class="sync ${!navigator.onLine ? "offline" : ""}"><i></i>${state.demo ? "Visitante" : navigator.onLine ? "Supabase conectado" : "Sem conexão"}<small>${state.demo ? "Alterações temporárias" : state.syncError ? "Sincronização pendente" : navigator.onLine ? "Dados sincronizados" : "Dados em memória"}</small></span><button data-action="sync" aria-label="Sincronizar dados" title="Sincronizar dados" ${state.demo ? "disabled" : ""}>${icon("refresh-cw")}</button><button data-action="profile" aria-label="Abrir perfil" title="Perfil">${icon("user")}</button></header>${state.demo ? '<div class="session-strip">MODO VISITANTE · Coleção vazia por padrão. Entre na sua conta para salvar as alterações.</div>' : ""}${!navigator.onLine ? '<div class="banner warning">Sem internet. Consultas já carregadas continuam disponíveis; salvamentos exigem conexão.</div>' : ""}<main id="content"></main><footer>Projeto pessoal independente · Sem afiliação à Behaviour Interactive<span>Catálogo ${escape(state.catalog.config.reviewed_at)}</span></footer></div></div>`;
   renderContent();
   renderDrawer();
   if (state.route === "build" && !state.result && !state.loading && selected())
@@ -306,7 +328,62 @@ function homeView() {
     `<section class="stats"><article><small>ASSASSINOS ADQUIRIDOS</small><strong>${state.collection.length}<span> / ${state.catalog.killers.length}</span></strong><p>Prestígios definidos por você</p></article><article><small>VANTAGENS NO CATÁLOGO</small><strong>${state.catalog.perks.length}</strong><p>${new Set(state.catalog.perks.map(family)).size} efeitos distintos</p></article><article><small>DISPONÍVEIS PARA ${escape(selected()?.name || "O ASSASSINO")}</small><strong>${pool().length}</strong><p>Conforme seus desbloqueios</p></article><article><small>BUILDS FAVORITAS</small><strong>${state.favorites.length}</strong><p>Prontas para consultar</p></article></section><div class="home-grid"><section class="panel resume"><span class="eyebrow">${state.lastConsulted ? "ÚLTIMO ASSASSINO CONSULTADO" : "COMECE POR UM ASSASSINO"}</span>${recent ? `<div class="resume-body">${imageFor(recent, "portrait")}<div><h2>${escape(recent.name)}</h2><p>${escape(recent.description)}</p><button class="primary" data-generate="${recent.id}">Montar build</button><button class="secondary" data-killer="${recent.id}">Minha coleção</button></div></div>` : ""}</section><section class="panel"><span class="eyebrow">SEU ROTEIRO</span><h2>Três passos para começar</h2><ol class="steps"><li>Marque os assassinos que você possui.</li><li>Informe os prestígios e desbloqueios individuais.</li><li>Gere uma build e guarde suas favoritas.</li></ol><button class="secondary" data-nav="collection">Abrir coleção ${icon("chevron-right")}</button></section></div><section class="section-heading"><h2>Suas favoritas</h2><button class="text-button" data-nav="favorites">Ver todas</button></section>${state.favorites.length ? favoritesCards(state.favorites.slice(0, 3)) : empty("Ainda sem favoritas", "As builds que você salvar aparecem aqui.")}<div class="catalog-note">${escape(catalogNotice())}</div>`
   );
 }
-function collectionView() {
+function selectionButton() {
+  return `<button class="secondary" data-action="select-mode" aria-pressed="${!!state.selection}">${state.selection ? "Concluir seleção" : "Selecionar vários"}</button>`;
+}
+function selectionCheckbox(id, name) {
+  if (!state.selection) return "";
+  return `<label class="checkbox item-selection"><input type="checkbox" data-select-item="${escape(id)}" aria-label="Selecionar ${escape(name)}" ${state.selection.has(id) ? "checked" : ""}>Selecionar</label>`;
+}
+function selectionToolbar(list) {
+  if (!state.selection) return "";
+  const perks = state.route === "perks";
+  const disabled = !state.selection.size || (perks && !owned(selected()?.id));
+  return `<section class="bulk-toolbar" aria-label="Ações da seleção"><p role="status">${state.selection.size} selecionados${perks ? ` · Para ${escape(selected()?.name)}` : ""}</p><div class="button-row"><button class="secondary" data-action="select-all" ${!list.length ? "disabled" : ""}>Selecionar todos (${list.length})</button><button class="secondary" data-action="select-clear" ${!state.selection.size ? "disabled" : ""}>Limpar seleção</button></div><small>Selecionar todos inclui todos os resultados do filtro, inclusive os ainda não exibidos. Alterar a busca ou os filtros limpa a seleção.</small>${perks ? `<label>Nível mínimo<select id="bulk-tier">${options({1:"Nível 1",2:"Nível 2",3:"Nível 3"}, String(state.bulkTier))}</select></label><small>${owned(selected()?.id) ? "Níveis superiores já disponíveis são preservados. Desmarcar bloqueia a perk; Automático volta às regras de prestígio." : "Adicione o assassino selecionado à coleção antes de registrar desbloqueios."}</small>` : "<small>Novos assassinos entram em P0. Os prestígios existentes são preservados.</small>"}<div class="button-row"><button class="primary" data-action="bulk-acquire" ${disabled ? "disabled" : ""}>Marcar como adquirido</button><button class="secondary" data-action="bulk-unmark" ${disabled ? "disabled" : ""}>Desmarcar</button>${perks ? `<button class="secondary" data-action="bulk-auto" ${disabled ? "disabled" : ""}>Voltar ao automático</button>` : ""}</div></section>`;
+}
+async function applyBulk(action, ids) {
+  const userId = state.user?.id;
+  const demo = state.demo;
+  const killerId = selected()?.id;
+  const assertSession = () => {
+    if (state.user?.id !== userId || state.demo !== demo) throw Error("A sessão terminou.");
+  };
+  notify(demo ? "Atualizando seleção…" : "Salvando seleção na nuvem…");
+  let changed = 0;
+  if (state.route === "collection") {
+    if (action === "bulk-acquire") {
+      const rows = newKillers(state.catalog, state.collection, ids);
+      const saved = demo ? rows : await acquireKillers(cloud, userId, rows);
+      assertSession();
+      state.collection = state.collection.concat(saved);
+      changed = saved.length;
+    } else {
+      const removed = demo ? state.collection.filter(x => ids.includes(x.killer_id)) : await removeKillers(cloud, userId, ids);
+      assertSession();
+      const keys = new Set(removed.map(x => x.killer_id));
+      state.collection = state.collection.filter(x => !keys.has(x.killer_id));
+      state.overrides = state.overrides.filter(x => !keys.has(x.killer_id));
+      state.favorites = state.favorites.filter(x => !keys.has(x.killer_id));
+      changed = keys.size;
+    }
+  } else {
+    // Validate ownership even for removing overrides; never affect another killer.
+    const rows = perkUnlocks(state.catalog, state.collection, state.overrides, killerId, ids, action === "bulk-unmark" ? 0 : state.bulkTier);
+    const saved = action === "bulk-auto"
+      ? (demo ? state.overrides.filter(x => x.killer_id === killerId && ids.includes(x.perk_id)) : await resetPerkUnlocks(cloud, userId, killerId, ids))
+      : (demo ? rows : await savePerkUnlocks(cloud, userId, rows));
+    assertSession();
+    const keys = new Set(saved.map(x => x.perk_id));
+    state.overrides = state.overrides.filter(x => x.killer_id !== killerId || !keys.has(x.perk_id));
+    if (action !== "bulk-auto") state.overrides.push(...saved);
+    changed = saved.length;
+  }
+  state.selection?.clear();
+  state.drawer = null;
+  invalidate();
+  notify(`${changed} registros atualizados${demo ? " nesta sessão." : " na nuvem."}`);
+}
+function collectionList() {
   let list = state.catalog.killers
     .filter((k) =>
       normalize(`${k.name} ${k.name_en} ${k.description}`).includes(
@@ -331,16 +408,21 @@ function collectionView() {
         a.name.localeCompare(b.name, "pt-BR")
       : a.name.localeCompare(b.name, "pt-BR"),
   );
+  return list;
+}
+function collectionView() {
+  const list = collectionList();
   return (
     title(
       "Minha coleção",
       `${state.collection.length} adquiridos de ${state.catalog.killers.length} assassinos. Clique em um card para editar.`,
+      selectionButton(),
     ) +
-    `<div class="filters"><label>Mostrar<select data-filter="collectionFilter">${options({ all: "Todos os killers", owned: "Apenas adquiridos", missing: "Não adquiridos" }, state.collectionFilter)}</select></label><label>Prestígio<select data-filter="prestigeFilter">${options({ all: "Todos", 0: "P0", 1: "P1", 2: "P2", "3+": "P3 ou superior" }, state.prestigeFilter)}</select></label><label>Ordenar<select data-filter="sort">${options({ name: "Ordem alfabética", prestige: "Maior prestígio" }, state.sort)}</select></label><span class="result-count">${list.length} encontrados</span></div><div class="collection-grid">${list
+    `<div class="filters"><label>Mostrar<select data-filter="collectionFilter">${options({ all: "Todos os killers", owned: "Apenas adquiridos", missing: "Não adquiridos" }, state.collectionFilter)}</select></label><label>Prestígio<select data-filter="prestigeFilter">${options({ all: "Todos", 0: "P0", 1: "P1", 2: "P2", "3+": "P3 ou superior" }, state.prestigeFilter)}</select></label><label>Ordenar<select data-filter="sort">${options({ name: "Ordem alfabética", prestige: "Maior prestígio" }, state.sort)}</select></label><span class="result-count">${list.length} encontrados</span></div>${selectionToolbar(list)}<div class="collection-grid">${list
       .slice(0, state.limit)
       .map(
         (k) =>
-          `<button class="killer-card ${owned(k.id) ? "owned" : ""} ${selected()?.id === k.id ? "selected" : ""}" data-killer="${k.id}">${imageFor(k, "portrait")}<div class="killer-card-info"><span class="ownership">${owned(k.id) ? `ADQUIRIDO · P${owned(k.id).prestige}` : "NÃO ADQUIRIDO"}</span><h2>${escape(k.name)}</h2><small>${escape(k.name_en)}</small></div></button>`,
+          `<div class="selectable-killer ${state.selection?.has(k.id) ? "bulk-selected" : ""}">${selectionCheckbox(k.id, k.name)}<button class="killer-card ${owned(k.id) ? "owned" : ""} ${selected()?.id === k.id ? "selected" : ""}" data-killer="${k.id}">${imageFor(k, "portrait")}<div class="killer-card-info"><span class="ownership">${owned(k.id) ? `ADQUIRIDO · P${owned(k.id).prestige}` : "NÃO ADQUIRIDO"}</span><h2>${escape(k.name)}</h2><small>${escape(k.name_en)}</small></div></button></div>`,
       )
       .join(
         "",
@@ -360,11 +442,11 @@ function more(total) {
     ? `<button class="secondary load-more" data-action="more">Carregar mais (${total - state.limit} restantes)</button>`
     : "";
 }
-function perkTile(p, extra = "") {
+function perkTile(p, extra = "", selectable = false) {
   const actual = pool().find((x) => x.id === p.id);
-  return `<article class="catalog-perk"><button class="perk-open" data-perk="${p.id}">${imageFor(p)}<div><h3>${pname(p)}</h3>${p.name_pt ? `<small>${escape(p.name)}</small>` : ""}<span class="origin">${escape(killer(p.owner_id)?.name || "Vantagem geral")}</span><span class="pill ${actual ? "positive" : "muted"}">${actual ? `Disponível · Nível ${actual.tier}` : "Não confirmada / bloqueada"}</span></div></button><div class="tags">${(p.categories || [p.category]).map((c) => `<span>${categories[c]}</span>`).join("")}</div>${extra}</article>`;
+  return `<article class="catalog-perk ${selectable && state.selection?.has(p.id) ? "bulk-selected" : ""}">${selectable ? selectionCheckbox(p.id, perkName(p)) : ""}<button class="perk-open" data-perk="${p.id}">${imageFor(p)}<div><h3>${pname(p)}</h3>${p.name_pt ? `<small>${escape(p.name)}</small>` : ""}<span class="origin">${escape(killer(p.owner_id)?.name || "Vantagem geral")}</span><span class="pill ${actual ? "positive" : "muted"}">${actual ? `Disponível · Nível ${actual.tier}` : "Não confirmada / bloqueada"}</span></div></button><div class="tags">${(p.categories || [p.category]).map((c) => `<span>${categories[c]}</span>`).join("")}</div>${extra}</article>`;
 }
-function perksView() {
+function perksList() {
   const actual = new Set(pool().map((p) => p.id));
   let list = state.catalog.perks
     .filter((p) =>
@@ -390,14 +472,20 @@ function perksView() {
         (p.categories || [p.category]).includes(state.category),
     )
     .sort((a, b) => perkName(a).localeCompare(perkName(b), "pt-BR"));
+  return list;
+}
+function perksView() {
+  const list = perksList();
+  const actual = new Set(pool().map(p => p.id));
   return (
     title(
       "Catálogo de perks",
       `${state.catalog.perks.length} vantagens carregadas · ${actual.size} disponíveis para ${escape(selected()?.name || "o assassino")}.`,
+      selectionButton(),
     ) +
-    `<div class="filters"><label>Assassino selecionado<select id="killer-select">${killerOptions()}</select></label><label>Disponibilidade<select data-filter="perkAvailability">${options({ all: "Todas as perks", available: "Disponíveis", locked: "Não confirmadas / bloqueadas" }, state.perkAvailability)}</select></label><label>Origem<select data-filter="owner">${options({ all: "Todos os assassinos", general: "Perks gerais", ...Object.fromEntries(state.catalog.killers.map((k) => [k.id, k.name])) }, state.owner)}</select></label><label>Categoria<select data-filter="category">${options({ all: "Todas", ...categories }, state.category)}</select></label></div><div class="info-strip">Perks gerais precisam de confirmação manual. P1–P3 compartilham as perks pessoais; registre melhorias pela Teia de Sangue ou Santuário no detalhe de cada perk.</div><p class="result-count">${list.length} resultados · Ordem alfabética</p><div class="catalog-grid">${list
+    `<div class="filters"><label>Assassino selecionado<select id="killer-select">${killerOptions()}</select></label><label>Disponibilidade<select data-filter="perkAvailability">${options({ all: "Todas as perks", available: "Disponíveis", locked: "Não confirmadas / bloqueadas" }, state.perkAvailability)}</select></label><label>Origem<select data-filter="owner">${options({ all: "Todos os assassinos", general: "Perks gerais", ...Object.fromEntries(state.catalog.killers.map((k) => [k.id, k.name])) }, state.owner)}</select></label><label>Categoria<select data-filter="category">${options({ all: "Todas", ...categories }, state.category)}</select></label></div><div class="info-strip">Perks gerais precisam de confirmação manual. P1–P3 compartilham as perks pessoais; registre melhorias pela Teia de Sangue ou Santuário no detalhe de cada perk.</div><p class="result-count">${list.length} resultados · Ordem alfabética</p>${selectionToolbar(list)}<div class="catalog-grid">${list
       .slice(0, state.limit)
-      .map((p) => perkTile(p))
+      .map((p) => perkTile(p, "", true))
       .join(
         "",
       )}</div>${!list.length ? empty("Nenhuma vantagem encontrada", "Tente outro nome ou altere os filtros.") : more(list.length)}`
@@ -538,7 +626,7 @@ function settingsView() {
       )
       .join(
         "",
-      )}</div><label class="checkbox"><input name="compact" type="checkbox" ${state.preferences.compact ? "checked" : ""}>Interface mais compacta</label><div class="button-row"><button class="primary">Salvar ajustes</button><button type="button" class="secondary" data-action="reset-weights">Restaurar pesos</button></div></form><section class="panel settings-info"><h2>Catálogo e imagens</h2><p>${escape(catalogNotice())}</p><p>${counts.ready} imagens disponíveis · ${counts.pending} imagens pendentes · ${assetFailures().length} falhas de carregamento nesta sessão.</p><p>Retratos e ícones reais incluídos no aplicativo. Duas entradas usam arte do nome legado equivalente, identificada nos créditos. Arte de Behaviour Interactive e respectivos licenciantes.</p><button class="secondary" data-action="asset-report">Ver imagens e créditos</button><h3>Seus dados</h3><p>Coleção, favoritos e configurações ficam no Supabase ao entrar. A sessão permanece apenas na memória. Nenhum dado de perfil é salvo em localStorage, IndexedDB ou arquivos locais.</p><p>Este aplicativo não acessa o processo, os arquivos ou as partidas do DBD.</p><button class="secondary" data-action="logout">Sair da conta</button></section>`
+      )}</div><label class="checkbox"><input name="compact" type="checkbox" ${state.preferences.compact ? "checked" : ""}>Interface mais compacta</label><div class="button-row"><button class="primary">Salvar ajustes</button><button type="button" class="secondary" data-action="reset-weights">Restaurar pesos</button></div></form><section class="panel settings-info"><h2>Catálogo e imagens</h2><p>${escape(catalogNotice())}</p><p>${counts.ready} imagens disponíveis · ${counts.pending} imagens pendentes · ${assetFailures().length} falhas de carregamento nesta sessão.</p><p>Retratos e ícones reais incluídos no aplicativo. Duas entradas usam arte do nome legado equivalente, identificada nos créditos. Arte de Behaviour Interactive e respectivos licenciantes.</p><button class="secondary" data-action="asset-report">Ver imagens e créditos</button><h3>Seus dados</h3><p>Coleção, favoritos e configurações ficam no Supabase ao entrar. A sessão de acesso fica salva no perfil deste aplicativo no Windows para reconectar automaticamente. Sua senha não é salva pelo aplicativo. Use “Sair da conta” para remover a sessão deste dispositivo.</p><p>Este aplicativo não acessa o processo, os arquivos ou as partidas do DBD.</p><button class="secondary" data-action="logout">Sair da conta</button></section>`
   );
 }
 function openDrawer(data) {
@@ -620,6 +708,8 @@ function drawerContent() {
     const f = d.id ? state.favorites.find((f) => f.id === d.id) : null;
     return `<span class="eyebrow">BUILD FAVORITA</span><h2>${f ? "Editar favorita" : "Guardar esta combinação"}</h2><form id="favorite-form"><label>Nome da build<input name="name" maxlength="80" value="${escape(f?.name || currentBuild()?.preset?.name || `${selected().name} · ${styles[currentBuild()?.style]}`)}" required></label><label>Notas opcionais<textarea name="notes" maxlength="2000" rows="5">${escape(f?.notes ?? themedNotes(currentBuild()))}</textarea></label><button class="primary">Salvar favorita</button></form>${f ? `<button class="secondary" data-open-favorite="${f.id}">Editar as quatro perks no gerador</button>` : ""}`;
   }
+  if (d.type === "confirm-bulk-remove")
+    return `<h2>Desmarcar ${d.ids.length} assassinos?</h2><p>Isso também exclui ${state.overrides.filter(x => d.ids.includes(x.killer_id)).length} desbloqueios manuais e ${state.favorites.filter(x => d.ids.includes(x.killer_id)).length} favoritas vinculadas a esses assassinos. Perks compartilhadas por prestígio deixarão de estar disponíveis automaticamente.</p><p>${d.ids.map(id => escape(killer(id).name)).join(", ")}</p><button class="primary" data-action="confirm-bulk-remove">Confirmar remoção</button><button class="secondary" data-action="close">Cancelar</button>`;
   if (d.type === "confirm-remove")
     return `<h2>Remover assassino da coleção?</h2><p>Isso também exclui os desbloqueios manuais e favoritos desse assassino.</p><button class="primary" data-confirm-remove="${d.id}">Remover</button><button class="secondary" data-action="close">Cancelar</button>`;
   if (d.type === "confirm-delete")
@@ -694,6 +784,7 @@ app.addEventListener("click", (event) => {
   const el = event.target.closest("button");
   if (!el || el.disabled || state.busy) return;
   if (el.dataset.nav) {
+    state.selection = null;
     state.route = el.dataset.nav;
     state.search = "";
     state.limit = 24;
@@ -870,6 +961,33 @@ app.addEventListener("click", (event) => {
     return;
   }
   switch (el.dataset.action) {
+    case "select-mode":
+      state.selection = state.selection ? null : new Set();
+      renderContent();
+      break;
+    case "select-all":
+      state.selection = new Set((state.route === "collection" ? collectionList() : perksList()).map(x => x.id));
+      renderContent();
+      break;
+    case "select-clear":
+      state.selection.clear();
+      renderContent();
+      break;
+    case "bulk-acquire":
+    case "bulk-unmark":
+    case "bulk-auto": {
+      const ids = [...(state.selection || [])];
+      if (!ids.length) break;
+      if (state.route === "collection" && el.dataset.action === "bulk-unmark") {
+        const acquired = ids.filter(id => owned(id));
+        if (acquired.length) openDrawer({ type: "confirm-bulk-remove", ids: acquired });
+        else notify("Nenhum assassino adquirido na seleção.");
+      } else act(() => applyBulk(el.dataset.action, ids));
+      break;
+    }
+    case "confirm-bulk-remove":
+      act(() => applyBulk("bulk-unmark", state.drawer.ids));
+      break;
     case "demo":
       reset();
       state.demo = true;
@@ -898,10 +1016,14 @@ app.addEventListener("click", (event) => {
     case "logout":
       act(async () => {
         if (!state.demo) {
-          await cloud.auth.signOut({ scope: "local" });
-          cloud.auth.stopAutoRefresh();
-          cloud = createCloud();
-          attachAuth();
+          const { error } = await cloud.auth.signOut({ scope: "local" });
+          if (error) {
+            if (!state.user) {
+              notify("Sessão removida deste dispositivo. Não foi possível confirmar o encerramento na nuvem.", true);
+              return;
+            }
+            throw error;
+          }
         }
         reset();
         notify("Sessão encerrada.");
@@ -999,13 +1121,8 @@ app.addEventListener("submit", (event) => {
       }
       state.user = result.data.user;
       state.demo = false;
-      try {
-        await hydrate();
-      } catch (error) {
-        state.user = null;
-        await cloud.auth.signOut({ scope: "local" });
-        throw error;
-      }
+      state.dataReady = false;
+      await hydrate();
     });
 
   if (form.dataset.collection) {
@@ -1112,11 +1229,21 @@ app.addEventListener("submit", (event) => {
 app.addEventListener("change", (event) => {
   const el = event.target;
   if (state.busy) return;
+  if (el.dataset.selectItem && state.selection) {
+    if (el.checked) state.selection.add(el.dataset.selectItem);
+    else state.selection.delete(el.dataset.selectItem);
+    const id = el.dataset.selectItem;
+    renderContent();
+    app.querySelector('[data-select-item="'+id+'"]')?.focus();
+    return;
+  }
+  if (el.id === "bulk-tier") state.bulkTier = Number(el.value);
   if (el.id === "killer-select")
     act(() => savePreferences({ selected_killer: el.value }));
   if (el.id === "only-available")
     act(() => savePreferences({ only_available: el.checked }));
   if (el.dataset.filter) {
+    state.selection?.clear();
     state[el.dataset.filter] = el.value;
     state.limit = 24;
     renderContent();
@@ -1159,6 +1286,7 @@ app.addEventListener("change", (event) => {
 app.addEventListener("input", (event) => {
   const el = event.target;
   if (el.id === "context-search") {
+    state.selection?.clear();
     state.search = el.value;
     state.limit = 24;
     renderContent();
@@ -1213,15 +1341,40 @@ function renderSearch() {
   box.innerHTML = matches.join("") || "<p>Nenhum resultado.</p>";
   document.querySelector(".workspace>header").append(box);
 }
-function attachAuth() {
-  cloud?.auth.onAuthStateChange((event) => {
-    if (event === "SIGNED_OUT" && state.user) {
-      reset();
-      render();
+// Supabase callbacks run under its auth lock: never await another auth call here.
+cloud?.auth.onAuthStateChange((event, session) => {
+  if (event === "SIGNED_OUT") {
+    const hadUser = !!state.user;
+    reset();
+    render();
+    if (hadUser) notify("Sessão encerrada. Entre novamente para acessar sua coleção.");
+  } else if (session && state.user?.id === session.user.id) {
+    state.user = session.user;
+  } else if (session && !state.restoring && !state.busy && !state.demo && ["SIGNED_IN", "TOKEN_REFRESHED"].includes(event)) {
+    // A refresh may recover after a temporary network outage; another window may sign in.
+    reset();
+    state.restoring = true;
+    render();
+    setTimeout(restoreSession, 0);
+  }
+});
+async function restoreSession() {
+  if (!cloud) return;
+  try {
+    const { data, error } = await cloud.auth.getSession();
+    if (error) throw error;
+    if (data.session) {
+      state.user = data.session.user;
+      await hydrate();
     }
-  });
+  } catch (error) {
+    state.syncError = true;
+    notify(errorText(error), true);
+  } finally {
+    state.restoring = false;
+    render();
+  }
 }
-attachAuth();
 window.addEventListener("offline", render);
 window.addEventListener("online", render);
 window.addEventListener("beforeunload", () => {
@@ -1230,3 +1383,5 @@ window.addEventListener("beforeunload", () => {
   clearAssets();
 });
 render();
+
+restoreSession();

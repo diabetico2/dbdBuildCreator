@@ -1,12 +1,17 @@
 import {createClient} from '@supabase/supabase-js';
-export function createCloud() {
-  const url=import.meta.env.VITE_SUPABASE_URL;
-  const key=import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+export function createCloud(env=import.meta.env, storage=globalThis.localStorage) {
+  const url=env.VITE_SUPABASE_URL;
+  const key=env.VITE_SUPABASE_PUBLISHABLE_KEY;
   if(!url || !key || url.includes('SEU_PROJETO') || key.includes('SUBSTITUA')) return null;
   if(!/^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/.test(url) || !key.startsWith('sb_publishable_'))
     throw Error('Use a URL HTTPS do projeto e uma chave pública sb_publishable_.');
+  if (!storage) throw Error('Armazenamento da sessão indisponível neste dispositivo.');
+  // Fail visibly instead of silently falling back to an in-memory session.
+  const probe = `dbc-storage-check-${Math.random()}`;
+  try { storage.setItem(probe,'1'); storage.removeItem(probe); }
+  catch { throw Error('Não foi possível salvar a sessão neste dispositivo.'); }
   return createClient(url,key,{
-    auth:{persistSession:false,autoRefreshToken:true,detectSessionInUrl:false},
+    auth:{storage,persistSession:true,autoRefreshToken:true,detectSessionInUrl:false},
     global:{fetch:(input,options={})=>fetch(input,{...options,cache:'no-store',signal:options.signal||AbortSignal.timeout(15000)})}
   });
 }
@@ -39,3 +44,27 @@ export async function loadCloud(client,userId) {
 }
 export async function upsert(client,table,row) {return unwrap(await client.from(table).upsert(row).select().single());}
 export async function remove(client,table,match) {return unwrap(await client.from(table).delete().match(match).select());}
+
+// One atomic PostgREST statement per batch; RLS remains enforced for the user.
+export async function acquireKillers(client,userId,rows) {
+  if(!rows.length)return [];
+  return unwrap(await client.from('dbc_collection').upsert(
+    rows.map(row=>({...row,user_id:userId})),
+    {onConflict:'user_id,killer_id',ignoreDuplicates:true}
+  ).select());
+}
+export async function savePerkUnlocks(client,userId,rows) {
+  if(!rows.length)return [];
+  return unwrap(await client.from('dbc_perk_unlocks').upsert(
+    rows.map(row=>({...row,user_id:userId})),
+    {onConflict:'user_id,killer_id,perk_id'}
+  ).select());
+}
+export async function removeKillers(client,userId,ids) {
+  if(!ids.length)return [];
+  return unwrap(await client.from('dbc_collection').delete().eq('user_id',userId).in('killer_id',ids).select());
+}
+export async function resetPerkUnlocks(client,userId,killerId,ids) {
+  if(!ids.length)return [];
+  return unwrap(await client.from('dbc_perk_unlocks').delete().eq('user_id',userId).eq('killer_id',killerId).in('perk_id',ids).select());
+}
